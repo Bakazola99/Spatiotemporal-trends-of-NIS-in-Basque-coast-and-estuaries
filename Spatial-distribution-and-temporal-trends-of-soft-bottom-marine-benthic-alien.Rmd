@@ -1,0 +1,2214 @@
+---
+title: "Spatial distribution and temporal trends of soft-bottom marine benthic alien
+species collected during the period 1995–2022 in the Basque coast (southeastern Bay of Biscay)"
+author: "Baki, Azeez Olalekan"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+## Abstract
+
+The introduction of invasive alien species represents one of the most important drivers of biodiversity loss and ecosystem functioning, with effects ranging from ecological to economic and human health. In this study, we present an updated list of 373 marine macroinvertebrate species that can be considered as alien, cryptogenic, and invasive species in the Bay of Biscay from three recent publications and two public sources. After carefully cleaning and correcting any incorrect naming conventions, and checking the WoRMs database, the 26,974 benthic species records of macroinvertebrates obtained from surveys carried out from 1995 to 2022 in the Basque coast, were crossed-against this list to identify non-indigenous species (NIS). 56 NIS were identified in the on the Basque coast and estuaries. The Spearman correlation showed a significant increasing trend between the number of NIS and the years of the study. The Nerbioi estuary emerges as a hotspot of NIS, with relativly high number of records of *Pseudopolydira paucibranchiata* (n=43, 26.4%), *Monocorophium acherusicum* (n=16, 9.8%), *Grandidierella japonica* (n=13, 8.0%), *Ruditapes philippinarum* (n=13, 8.0%), *Theora lubrica* (n=11, 6.8%), and *Xenostrobus securis* (n=11, 6.8%) found in the intermediate part of the estuary, where historically the industrial activity was settled. Oxygen saturation was found as a limiting factors for NIS at the inner to intermediate part. Increase of NIS in the Nerbioi estuary was not correlated with the number of vessels, which could suggest that factors other than maritime traffic are contributing to the establishment and expansion of NIS. Our data show that none of the NIS found on the Basque coast can be considered an invasive species of concern for European Union, except for the mussel *Xenostrobus securis*, which is of particular concern in Spain. Thus, the development of a specific monitoring focused on NIS is essential to monitor the establishment and spread of alien species, as well as to implement measures to prevent the establishment of newly-introduced invasive alien species.
+
+
+
+Keywords: Invasive, Cryptogenic, Non-indigenous species, Soft-bottom macroinvertebrates, Spatial distribution, Southeastern Biscay Bay.
+
+
+## 1	Introduction
+
+### 1.1	Bioinvasions and global change
+
+The ocean is increasingly facing direct and indirect threats from multiple human activities that alter marine ecosystems worldwide. The most significant environmental dilemmas that threat the ocean health are overexploitation of marine resources, chemical pollution and eutrophication, habitat destruction or degradation, climate change and biological invasions (Lotze et al., 2005; Halpern et al., 2008, 2019; Borja et al., 2011). The introduction of invasive alien species has been recognized as a direct driver of global change since it represents one of the most important drivers of biodiversity loss and ecosystem functioning (Costello et al., 2022; IPBES, 2023). The issue of invasive alien species is a growing environmental concern in all biogeographic realms, including terrestrial, freshwater, and marine ecosystems (Pyšek et al., 2020; Ragkousis et al., 2023). Nevertheless, the terminology related to bioinvasions continues changing leading to inconsistent definitions (Colautti and MacIsaac 2004; Ricciardi et al., 2013; Lockwood et al. 2013; Soto et al., 2024). There are many words with similar meanings, such as alien, exotic, foreign, introduced, non-indigenous, naturalized, allochthonous, non-native, and not aboriginal, but a common terminology is needed to describe the phenomenon (see the glossary in the annex section). In this study, we will refer non-indigenous species (NIS) to refer to a species that has been intentionally or unintentionally introduced into a place, area, or region where it does not occur naturally and the term cryptogenic to refer to a species that cannot be reliably demonstrated to be indigenous or non-indigenous or its origin is uncertain. Consequently, we will use the term invasive alien species (IAS) to those species that are introduced into other territories and manage to adapt, establish, reproduce, and disperse until they colonize the environment, form new populations, and impact ecosystems, economies, and human health (World Ocean Review, 4 2015, www.worldoceanreview.com). Thus, of the many species introduced into new habitats outside their natural range, only a small percentage is established in the new environment, and an even smaller proportion reproduces and increases their population, dispersing to colonize additional areas, with adverse effects on native biodiversity (Sakai et al. 2001; Colautti and MacIsaac 2004; Geburzi and McCarthy 2018). Likewise, IAS represent a small percentage of alien species that affect colonized areas.
+
+
+### 1.1.1	Specific objectives of the study
+
+The specific objectives are to:
+
+- build a comprehensive catalogue of marine alien and cryptogenic species in the Basque coast and estuaries.
+- evaluate the temporal trends of soft-bottom marine benthic alien and cryptogenic species in the Basque coast and estuaries.
+- determine the spatial distribution of soft-bottom marine benthic alien and cryptogenic species in the Basque coat and estuaries.
+- determine the influence of environmental variables and maritime activities on the distribution and abundance of soft-bottom marine benthic alien and cryptogenic species in the Nerbioi estuary.
+
+
+## 2	Materials and Methods
+
+### 2.1	Sampling and benthos characterisation
+
+The identification and evaluation of spatial distribution and temporal trends of soft-bottom marine benthic alien species were performed using historical data. These data were obtained from the Litoral Water Quality Monitoring and Control Network (Quality Network) of the Basque Water Agency that is carried out by AZTI to implement the Water Framework Directive. An annual monitoring of marine benthic species is conducted every winter. In the Basque coast, a total of 51 stations are surveyed (Figure 4), from which 19 stations are located in four coastal water bodies: Cantabria-Matxitxako (L-N10, L-N20, L-B10, L-B20 and L-RF30), Matxitxako-Getaria (L-OK10, L-L10, L-L20, L-A10, L-D10, L-RF20 and L-U10), Getaria-Higer (L-O20, L-O10, L-OI10, L-RF10, L-OI20 and L-BI10) and Mompas-Pasaia (L-UR20). The remaining 32 stations are located in 14 transition (estuarine) water bodies: Barbadun (E-M5 and E-M10), Inner Nerbioi (E-N10, E-N15 and E-N17), Outer Nerbioi (E-N20 and E-N30), Butroe (E-B5, E-B7 and E-B10), Inner Oka (E-OK5), Outer Oka (E-OK10 and E-OK20), Lea (E-L5 and E-L10), Artibai (E-A5 and E-A10), Deba (E-D5 and E-D10), Urola (E-U5, E-U8 and E-U10), Oria (E-O5 and E-O10), Urumea (E-UR5 and E-UR10), Oiartzun (E-OI10, E-OI15 and E-OI20) and Bidasoa (E-BI5, E-BI10 and E-BI20). 
+The study period ranged from 1995 to 2022 but it is worth noting that not all the stations were sampled from the beginning of the monitoring, which indicates that for comparison purposes the normalization of the number of samples with the number of sampling years is required.
+
+![Figure 1: Map showing the coastal and estuaries stations of the Basque coast with the Nerbioi estuary highlighted in a red box.](C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/study map new.png)
+
+
+
+
+## 3  Results
+
+## Basque waters
+
+### Identification of NIS in the Basque coast
+
+After cross checking the list of NIS with macrobenthic data of the Basque coast, 51 unique alien species, 4 cryptogenic species, and 1 invasive species were found between 1995 and 2022 (Table 3). These species belonged to 3 main taxa: Annelida (n=29, 51%), Arthropoda (n=14, 25%), and Mollusca (n=13, 23%).
+
+| S.N	| Scientific Name	|Kingdom	| Phylum	| Class	| Status |
+|------:|----------------:|-----------|-------------|---------------|:---------:|
+| 1 |	Ampelisca cavicoxa |	Animalia |	Arthropoda |	Malacostraca |	Alien |
+| 2|	Ampelisca heterodactyla|	Animalia|	Arthropoda	|Malacostraca|	Alien|
+|3|	Ampelisca pectenata|	Animalia|	Arthropoda|	Malacostraca|	Alien|
+|4	|Amphibalanus amphitrite|	Animalia|	Arthropoda|	Thecostraca	|Alien|
+|5|	Arcuatula senhousia|	Animalia|	Mollusca	|Bivalvia	|Alien|
+|6	|Arichlidon reyssi	|Animalia	|Annelida|	Polychaeta|	Alien|
+|7	|Austrominius modestus|	Animalia|	Arthropoda|	Thecostraca	|Alien|
+|8	|Autonoe spiniventris	|Animalia	|Arthropoda	|Malacostraca	|Alien|
+|9	|Boccardia polybranchia	|Animalia|	Annelida	|Polychaeta	|Alien|
+|10|	Boccardia proboscidea|	Animalia	|Annelida|	Polychaeta	|Alien|
+|11	|Boccardia semibranchiata	|Animalia|	Annelida|	Polychaeta|	Alien|
+|12	|Boccardiella ligerica	|Animalia	|Annelida	|Polychaeta	|Alien|
+|13	|Brania arminii	|Animalia	|Annelida	|Polychaeta|	Alien|
+|14	|Chaetozone corona|	Animalia	|Annelida	|Polychaeta|	Alien|
+|15	|Dasybranchus gajolae	|Animalia|	Annelida|	Polychaeta|	Alien|
+|16	|Desdemona ornata	|Animalia|	Annelida	|Polychaeta	|Alien|
+|17	|Dipolydora tentaculata	|Animalia|	Annelida	|Polychaeta|	Alien|
+|18	|Eocuma dimorphum	|Animalia|	Arthropoda|	Malacostraca	|Alien|
+|19	|Ericthonius punctatus|	Animalia	|Arthropoda	|Malacostraca	|Cryptogenic|
+|20	|Euchone incolor|	Animalia|	Annelida|	Polychaeta|	Alien|
+|21	|Ficopomatus enigmaticus	|Animalia|	Annelida|	Polychaeta|	Alien|
+|22	|Glycera celtica|	Animalia|	Annelida|	Polychaeta|	Alien|
+|23	|Goniadella gracilis	|Animalia	|Annelida|	Polychaeta|	Alien|
+|24	|Grandidierella japonica	|Animalia|	Arthropoda|	Malacostraca|	Alien|
+|25	|Hemigrapsus takanoi	|Animalia|	Arthropoda	|Malacostraca|	Alien|
+|26	|Jassa marmorata	|Animalia	|Arthropoda	|Malacostraca	|Cryptogenic|
+|27	|Lumbrinerides acuta|	Animalia	|Annelida	|Polychaeta|	Alien|
+|28	|Magallana angulata	|Animalia	|Mollusca|	Bivalvia|	Alien|
+|29	|Magallana gigas|	Animalia|	Mollusca|	Bivalvia|	Alien|
+|30	|Malacoceros indicus	|Animalia	|Annelida	|Polychaeta	|Alien|
+|31	|Metasychis gotoi	|Animalia|	Annelida|	Polychaeta|	Alien|
+|32	|Monocorophium acherusicum	|Animalia	|Arthropoda	|Malacostraca|	Cryptogenic|
+|33	|Monocorophium sextonae	|Animalia	|Arthropoda|	Malacostraca|	Cryptogenic|
+|34	|Mya arenaria	| Animalia	|Mollusca	|Bivalvia	|Alien|
+|35	|Neomysis integer|	Animalia|	Arthropoda|	Malacostraca	|Alien|
+|36	|Onuphis geophiliformis|	Animalia	|Annelida	|Polychaeta|	Alien|
+|37	|Opisthodonta spinigera|	Animalia|	Annelida|	Polychaeta|	Alien|
+|38	|Oudardia compressa	|Animalia	|Mollusca	|Bivalvia	|Alien|
+|39	|Paralacydonia paradoxa	|Animalia	|Annelida	|Polychaeta	|Alien|
+|40	|Parapionosyllis brevicirra|	Animalia	|Annelida	|Polychaeta|	Alien|
+|41	|Paraprionospio coora|	Animalia	|Annelida|	Polychaeta|	Alien|
+|42	|Petricolaria pholadiformis|	Animalia|	Mollusca|	Bivalvia	|Alien|
+|43	|Pista unibranchia	|Animalia|	Annelida	|Polychaeta	|Alien|
+|44	|Polydora hoplura	|Animalia|	Annelida|	Polychaeta|	Alien|
+|45	|Polydora websteri	|Animalia	|Annelida|	Polychaeta|	Alien|
+|46	|Potamopyrgus antipodarum	|Animalia	|Mollusca	|Gastropoda|	Alien|
+|47	|Prionospio pulchra|	Animalia|	Annelida	|Polychaeta|	Alien|
+|48	|Pseudopolydora paucibranchiata	|Animalia	|Annelida	|Polychaeta|	Alien|
+|49	|Ruditapes philippinarum	|Animalia	|Mollusca	|Bivalvia	|Alien|
+|50	|Streblospio benedicti	|Animalia	|Annelida|	Polychaeta	|Alien|
+|51	|Syllides edentatus|	Animalia|	Annelida	|Polychaeta	|Alien|
+|52	|Teredo navalis	|Animalia|	Mollusca|	Bivalvia|	Alien|
+|53	|Theora lubrica	|Animalia	|Mollusca	|Bivalvia|	Alien|
+|54	|Tritia neritea|	Animalia	|Mollusca|	Gastropoda|	Alien|
+|55	|Turbonilla acuta	|Animalia|	Mollusca|	Gastropoda|	Alien|
+|56|	Xenostrobus securis|	Animalia|	Mollusca|	Bivalvia|	Invasive|
+
+### Libraries used for the study
+```{r Libraries, message=FALSE, warning=FALSE}
+library(ggplot2)
+library(stats)
+library(ggpubr)
+library(corrplot)
+library(ggsci)
+library(packcircles)
+library(viridis)
+library(ggiraph)
+library(psych)
+library(lm.beta)
+library(lmtest)
+library(sandwich)
+library(car)
+library(sf)
+library(randomForest)
+library(stats)
+library(gganimate)
+library(readxl)
+library(patchwork)
+
+# Community analysis libraries
+library(vegan)   # Community ecology package
+library(factoextra)
+library(ggrepel)
+library(dplyr)
+library(tidyverse)
+
+# Species distribution modelling
+library(dismo)
+library(gdm)
+library(raster)
+library(terra)
+library(biomod2)
+library(sdmpredictors)
+library(sp)
+```
+
+### Phylum and class of the NIS species in Basque water
+We used another data that has been processed in Excel to include the taxonomic classification the species.
+
+```{r Phylum and class of the NIS species in Basque water, echo=FALSE, fig.show='hold'}
+NIS_phylum <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/AZTI Benthos data/Compile list of NNCS/Benthos dataset.csv")
+
+phylum_counts <- table(NIS_phylum$Phylum)
+phylum_proportions <- prop.table(phylum_counts) * 100
+phylum <-pie(phylum_proportions, labels = paste(names(phylum_proportions), sprintf("(%.1f%%)", phylum_proportions)))
+
+class_counts <- table(NIS_phylum$Class)
+class_proportions <- prop.table(class_counts) * 100
+class <-pie(class_proportions, labels = paste(names(class_proportions), sprintf("(%.1f%%)", class_proportions)))
+```
+
+### 3.1	Temporal trend of NIS in the Basque coast
+
+```{r Temporal trend}
+temporal <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Benthos temporal_ratio.csv")
+colnames(temporal) <- c("Year", "number of stations sampled",	"Native species", "NIS species", "Total species", "Native records",	"NIS records",	"Total records",	"NIS/native records",	"NIS/native species", "Newly added NIS", "Cumulative new NIS",	"NIS species/number of stations",	"Newly introduced NIS/number of stations",	"Cumulative new NIS/number of stations")
+#str(temporal)
+#summary(temporal)
+#colnames(temporal)
+```
+
+```{r Temporal trends of NIS in Basque water, message=FALSE, warning=FALSE}
+record <- ggplot(temporal, aes(x=factor(Year), y=`Native records`, fill="Native species")) +
+  geom_bar(stat="identity", color="blue") +
+  geom_bar(aes(y=`NIS records`, fill="Non-Indigenous species"), stat="identity", color="red", position="stack") +
+  scale_fill_manual(values=c("Native species"="blue", "Non-Indigenous species"="red")) +
+  labs(x="Year", y="Record") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+      legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black", size=0.5),
+      legend.text = element_text(color = "black", face = "bold"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"),) +
+  scale_x_discrete(name ="Year") +
+  scale_y_continuous(name = "Native records", breaks=seq(min(0), max(1400), by=100)) +
+  guides(fill=guide_legend(title="Species Type"))
+record
+ggsave("Record_trend.png", record, width = 7,height = 6,units = 'in', dpi = 500)
+```
+
+```{r Temporal line, message=FALSE, warning=FALSE, include=FALSE}
+record_1 <- ggplot(temporal, aes(x = Year)) + 
+  geom_line(aes(y = `Native records`, color = "Native record")) +
+  geom_text(aes(y = `Native records`, label = `number of stations sampled`), vjust = -1, color = "black", size = 2.5,fontface="bold") +
+  scale_y_continuous(name = "Native record",
+    limits = c(0, max(temporal$`Native records`) + 50),
+    breaks = seq(0, max(temporal$`Native records`), by = 50))+
+  scale_x_continuous(breaks=seq(min(temporal$Year), max(temporal$Year), by=5))+ 
+  geom_line(aes(y = `NIS records` * (max(temporal$`Native records`) + 50) / 90, 
+                color = "Non indigenous record")) +
+  scale_y_continuous(sec.axis = sec_axis(~ . * 90 / (max(temporal$`Native records`) + 50),
+                                         name = "Non indigenous record",
+                                         breaks = seq(0, 90, by = 10)),
+                     name = "Native record",
+                     limits = c(0, max(temporal$`Native records`) + 50),
+                     breaks = seq(0, max(1400), by = 100)) +
+  scale_color_manual(values = c("Native record" = "blue","Non indigenous record" = "red")) +
+  labs( x = "Year", color = "Record") +
+  theme_classic() +
+  theme(legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black"),
+      legend.text = element_text(color = "black", face = "bold"),
+      legend.spacing.y = unit(0.1, "cm"),
+      legend.key.height = unit(0.4, "cm"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"),
+      axis.text.y.right = element_text(color = "red",face = "bold"),
+      axis.title.y.right = element_text(color = "red", face = "bold"))
+#record_1
+ggsave("Basque_record_trend.png", record_1, width = 7,height = 6,units = 'in', dpi = 500)
+```
+
+```{r line plot for number of NIS, echo=TRUE, message=FALSE, warning=FALSE}
+species <- ggplot(temporal, aes(x = Year)) + 
+  geom_line(aes(y = `Native species`, color = "Native species")) +
+  geom_text(aes(y = `Native species`, label = `number of stations sampled`), vjust = -1, color = "black", size = 2.5,fontface="bold") +
+  scale_y_continuous(name = "Native species",
+    limits = c(0, max(temporal$`Native species`) + 50),
+    breaks = seq(0, max(temporal$`Native species`) + 50, by = 50))+
+  scale_x_continuous(breaks=seq(min(temporal$Year), max(temporal$Year), by=5))+ 
+  geom_line(aes(y = `NIS species` * (max(temporal$`Native species`) + 50) / 30, color = "Non indigenous species")) +
+  scale_y_continuous(sec.axis = sec_axis(~ . * 30 / (max(temporal$`Native species`) + 50), name = "Non indigenous species", breaks = seq(0, 30, by = 5)),name = "Native species",
+    limits = c(0, max(temporal$`Native species`) + 50),
+    breaks = seq(0, max(temporal$`Native species`) + 50, by = 50)) +
+  scale_color_manual(values = c("Native species" = "blue", 
+                                "Non indigenous species" = "red")) +
+  labs( x = "Year", color = "Species") +
+  theme_classic() +
+  theme(legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black"),
+      legend.text = element_text(color = "black", face = "bold"),
+      legend.spacing.y = unit(0.1, "cm"),
+      legend.key.height = unit(0.4, "cm"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"),
+      axis.text.y.right = element_text(color = "red",face = "bold"),
+      axis.title.y.right = element_text(color = "red", face = "bold"))
+#species
+#species_anim <-species+transition_reveal(Year)
+#species_anim
+#ggsave("Basque_NIS_trend.png", species, width = 7,height = 6,units = 'in', dpi = 500)
+#anim_save("species_anim.gif")
+
+(record_1 + species) 
+```
+
+### Normalized data for NIS
+We normalized the data because of inconsistency in the number of sampling years.
+```{r normalised data, echo=TRUE, message=FALSE, warning=FALSE}
+
+norl <- ggplot(temporal, aes(x = Year)) + 
+  geom_line(aes(y = `Native species`, color = "Native species")) +
+  geom_text(aes(y = `Native species`, label = `number of stations sampled`), vjust = -1, color = "black", size = 2.5,fontface="bold") +
+  scale_y_continuous(
+    limits = c(0, max(temporal$`Native species`) + 50),
+    breaks = seq(0, max(temporal$`Native species`) + 50, by = 50))+
+  scale_x_continuous(breaks=seq(min(temporal$Year), max(temporal$Year), by=5))+ 
+  geom_line(aes(y = `NIS species/number of stations` * (max(temporal$`Native species`) + 50) / 0.6, color = "NIS/number of stations")) +
+  scale_y_continuous(sec.axis = sec_axis(~ . * 0.6 / (max(temporal$`Native species`) + 50), name = "NIS/number of stations", breaks = seq(0, 0.6, by = .05)),name = "Native species",
+    limits = c(0, max(temporal$`Native species`) + 50),
+    breaks = seq(0, max(temporal$`Native species`) + 50, by = 50)) +
+  scale_color_manual(values = c("Native species" = "blue", 
+                                "NIS/number of stations" = "red")) +
+  labs( x = "Year", color = "Species") +
+  theme_classic() +
+  theme(legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black"),
+      legend.text = element_text(color = "black", face = "bold"),
+      legend.spacing.y = unit(0.1, "cm"),
+      legend.key.height = unit(0.4, "cm"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"),
+      axis.text.y.right = element_text(color = "red",face = "bold"),
+      axis.title.y.right = element_text(color = "red", face = "bold"))
+#norl
+
+(record_1 + species) 
+norl
+```
+
+### Models: Trends in the Basque NIS
+
+```{r Basque NIS models, echo=FALSE, message=FALSE, warning=FALSE}
+# Test for normality
+shapiro.test(temporal[,-10]$`NIS species`) # Not normally distributed
+plot(density(temporal[,-10]$`NIS species`))
+shapiro.test(temporal[,-10]$`Native species`)
+plot(density(temporal[,-10]$`Native species`))
+
+cor.temp<- cor(temporal[,-10], method = 'spearman', use = 'everything')
+corrplot(corr = cor.temp, method = "number", type = "lower", 
+         tl.cex = 0.6, cl.pos = 'r', number.cex = 0.7,
+         number.digits=2, tl.col="black", addgrid.col='black')
+
+```
+
+```{r Models, message=FALSE, warning=FALSE}
+# GLM Poisson
+glm_model <- glm(`NIS species` ~ Year, family = poisson(link = "log"), data = temporal);summary(glm_model)
+
+# Random Forest
+rf_model <- randomForest(`NIS species` ~ Year, data = temporal, ntree = 100);rf_model
+
+# Linear Model
+lm_model <- lm(`NIS species` ~ Year, data = temporal);summary(lm_model)
+
+# Predictions for plotting
+temporal$glm_pred <- predict(glm_model, type = "response")
+temporal$rf_pred <- predict(rf_model)
+temporal$lm_pred <- predict(lm_model)
+
+#Using RandomForest to predict from 2024-2030
+future_years <- data.frame(Year = 2024:2030)
+future_predictions <- predict(rf_model, newdata = future_years)
+
+future_data <- data.frame(Year = 2024:2030, Predicted_NIS = future_predictions)
+
+# Plot future predictions
+future_plot <- ggplot(future_data, aes(x = Year, y = Predicted_NIS)) +
+  geom_point(color = "blue") +
+  geom_line(color = "red") +
+  ggtitle("Predicted Non-Indigenous Species (2024-2030) using Random Forest") +
+  xlab("Year") +
+  ylab("Predicted Number of Non-Indigenous Species") +
+  theme_minimal()+
+  theme(axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+
+future_plot
+ggsave("Rf_prediction.png", future_plot)
+
+#Using Linear model to predict from 2024-2030
+future_predictions_lm <- predict(lm_model, newdata = future_years)
+future_predictions_lm
+
+future_data_lm <- data.frame(Year = 2024:2030, Predicted_NIS = future_predictions_lm)
+
+
+# Plot future predictions
+future_plot_lm <- ggplot(future_data_lm, aes(x = Year, y = Predicted_NIS)) +
+  geom_point(color = "blue") +
+  geom_line(color = "red") +
+  xlab("Year") +
+  ylab("Predicted Number of Non-Indigenous Species") +
+  theme_minimal()+
+  theme(axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+
+ggsave("future_plot_lm.png", future_plot_lm)
+
+# function to create plots for each model
+plot_model <- function(model_pred, model_name, model_object, is_glm = FALSE, is_rf = FALSE) {
+  if (is_rf) {
+    # For RF, manually calculate R² and use it as the primary measure
+    rsq <- cor(model_pred, temporal$`NIS species`)^2
+    model_info <- paste("R-vaue:", round(rsq, 2))
+  } else {
+    aic_value <- AIC(model_object)
+    rsq <- ifelse(is_glm, 1 - model_object$deviance / model_object$null.deviance, summary(model_object)$r.squared)
+    model_info <- paste("AIC:", round(aic_value, 2), "R-value:", round(rsq, 2))
+  }
+  
+  p <- ggplot(temporal, aes(x = Year)) +
+    geom_point(aes(y =`NIS species`, group = 1), color = "blue") +
+    geom_line(aes(y = model_pred), color = "red") +
+    xlab("Year") +
+    ylab("Number of Non-Indigenous Species") +
+    annotate("text", x = Inf, y = Inf, label = model_info,
+             hjust = 1.5, vjust = 1.1, size = 5, color = "darkred") +
+    theme_classic2()+
+    theme(axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))+
+  scale_x_continuous(breaks=seq(min(temporal$Year), max(temporal$Year), by=5))+
+    theme(plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"))
+  return(p)
+}
+
+
+glm_plot <- plot_model(temporal$glm_pred, "GLM Poisson", glm_model, is_glm = TRUE);glm_plot
+rf_plot <- plot_model(temporal$rf_pred, "Random Forest", rf_model, is_rf = TRUE);rf_plot
+lm_plot <- plot_model(temporal$lm_pred, "Linear Model", lm_model);lm_plot
+
+
+ggsave("GLM_Poisson_plot.png", glm_plot, width = 6,height = 6,units = 'in', dpi = 500)
+ggsave("RF_plot.png", rf_plot, width = 6,height = 6,units = 'in', dpi = 500)
+ggsave("LM_plot.png", lm_plot, width = 6,height = 6,units = 'in', dpi = 500)
+
+```
+
+
+From a total of *26,960* soft-bottom benthic species records compiled from the 28 years monitoring activities across coastal and estuarine waterbodies in the Basque country, 937 records were identified as NIS consisting of alien, cryptogenic and invasive species, representing *3.48%* of the total. For clarification, it is worth noting that records referred to the presence of a species in a specific station for a specific sampling. From this NIS records, *45.4% (n=425)* belonged to Annelida, *36.7% (n=344)* Arthropoda while *17.9% (n=168)* were Mollusca. Among the NIS with more than 49 records, the most important are: *Pseudopolydora paucibranchiata* (n=135, 14.41%), *Ampelisca cavicoxa* (n=112, 11.95%), *Desdemona ornata* (n=55, 5.87%), *Autonoe spiniventris* (n=55, 5.87%), *Ampelisca heterodactyla* (n=54, 5.76%) and *Goniadella gracillis* (n=49, 5.23%). 
+In total, 56 NIS were identified for the Basque coast and estuaries over the course of this study. The ratio of NIS with respect to native species ranged from 0.01 in 1996 to 0.06 in 2016 and 2021.
+There was a significant positive correlation between the number of NIS records and the years of the study and the number of NIS and the years of the study (*R=0.95, 0.92* respectively, *p<0.05*). From 2009 upward, the number of NIS detected became stable ranging between 19-24 species counted. The correlation between native species and NIS species is also strong (*R=0.87; n = 28, p < 0.05*)
+Over the past decades, there has been an increasing trends and significant positive correlation between the number of NIS records and the number of NIS of the Basque waters and the years of the study . The correlation between native species and NIS species is also strong (*R=0.87*). From 2010 upward, the number of NIS detected became stable ranging between 20-25 species counted . The Ordinary linear model, OLM results  demonstrate a significant relationship between the year and NIS (*R^2 =0.86; p-value =1.06e^-12*) with an estimated annual rate increase of *0.8* 
+The generalized linear model with a Poisson distribution (GLM) captures the non-linearity in the NIS species and also shows a significant influence of years on the Basque water non-indigenous species over the study period (*R^2 =0.75; p-value =2.0e^-16*) with an estimated annual increase of *0.06* 
+Lastly, the Akaike Information Criterion (AIC) was *140.86* for OLM and *155.2* for GLM, indicating that OLM is the best model for capturing the variation in the data and making predictions.
+
+
+### Non-indigenous species frequency of record
+We showed the species with highest record of occurrence to determine the NIS inhabiting the Basque coastal water and estuaries. We again used processed data from Excel for this analysis. We show the result with interactive circle packing
+
+```{r frequency of record, echo=FALSE}
+species_frequency <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/species frequency.csv")
+
+species_frequency$text <- paste(species_frequency$species, "\n", species_frequency$occurrence_record)
+
+species_frequency <- species_frequency[species_frequency$occurrence_record > 10, ]
+
+# Generate the layout
+packing <- circleProgressiveLayout(species_frequency$occurrence_record, sizetype='area')
+packing$radius <- 0.95*packing$radius
+data <- cbind(species_frequency, packing)
+dat.gg <- circleLayoutVertices(packing, npoints=50)
+
+
+p <- ggplot() + 
+  geom_polygon_interactive(data = dat.gg, aes(x, y, group = id, fill=id, data_id = id), colour = "black", alpha = 0.6) +
+  scale_fill_viridis() +
+  geom_text(data = data, aes(x, y, label = gsub("text", "", text)), size=3.5, color="black", fontface="bold") +
+  theme_void() + 
+  theme(legend.position="none", plot.margin=unit(c(0,0,0,0),"cm")) + 
+  coord_equal()
+#p
+
+ggsave("speciesFreq.png",p, width = 13.59,height = 10.42,units = 'cm', dpi = 500)
+
+# Turn it interactive
+widg <- ggiraph(ggobj = p, width_svg = 10, height_svg = 10)
+widg
+```
+
+
+## 3.2	Spatial distribution of alien benthic species in the Basque coast and estuaries
+
+N.B: The spatial analysis of the NIS was determine using Qgis and results are shown in the spatial format. 
+
+![Figure 2: Spatial distribution of NIS of the Basque coast showing the mean NIS values obtained for the period 1995-2022 in Basque coastal waters.](C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Picture3.png)
+
+
+
+![Figure 3: Spatial distribution of NIS of the Basque coast showing the mean NIS values obtained for the period 1995-2022 in Basque estuaries.](C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Picture2.png)
+
+During the study period between 1995 and 2022, all the Basque estuaries exhibited the presence of NIS, with significant differences (*p<0.05*) in the mean NIS value (*No of NIS/Years of survey*) of various sampling stations. When considering the entire period, the mean number of NIS ranged from 0 to 0.67, with the highest values being found in the Nerbioi, Urola, Oiartzun, and Bidasoa estuaries and the lowest in the inner stations of the Urumea, Artibai, Lea and Barbadun estuaries (Figure 8). 
+In the Nerbioi estuary, the highest mean NIS value was detected in the middle part of the estuary (E-N15, E-N17, and E-N20). In the Oiartzun estuary, both the inner (E-OI10) and outer stations (E-OI20) of the estuary recorded a high number of NIS. Conversely, at the Oka estuary, NIS were observed in the outer part of the estuary, while almost no species were recorded in the inner part. 
+In the coastal waters, the reference stations showed a mean value of NIS, while the majority of the coastal waters recorded a low value (*<0.29*). Only the stations L-L20 (Lea), L-A10 (Artibai), and L-OI10 (Oiartzun) displayed high values (*>0.29*). The mean NIS value significantly differed from stations <0.29 and stations *>0.29* (*t(6)=7.20*, *p-value=7.4e^-07*)
+
+## 3.3	The Nerbioi estuary
+
+The Ibaizabal estuary (Nerbioi) is the longest among the estuaries in Basque Country crossing the populated area of the city of Bilbao and its surroundings. In addition, the estuary contains the largest commercial port in the northern Iberian Peninsula (Port of Bilbao). In past decades, the estuary faced the impact of pollution from the industrial and household effluents leading to the loss of important flora and fauna as well as development of hypoxia in the estuary (Borja et al., 2006, Zorita et al., 2013). However, the development of sewerage scheme by the Bilbao Bizkaia Water Consortium and the decline in the industrial activity in the region brings the ecological status of the estuary to moderate (Borja et al. 2021). 
+
+### 3.3.1	Identification of NIS in Nerbioi estuary
+
+|Year|NIS|Native species|Total species|NIS records|Native records|Total records|Newly added|Cumulative NIS|
+|------:|-----:|------------:|---------------|---------------|---------------|:-----------:|-----------|----------:|
+|1995	|0	|86 |	86|	0|	102|	102|	0	|0|
+|1996	|1	|79 |	80	|1|	99|	100|	1|	1|
+|1997	|1	|52 |	53	|1	|61	|62	|1	|2|
+|1998	|1	|65 |	66|	1	|75|	76|	1	|3|
+|1999	|2	|53	| 55	|2	|57	|59	|1	|4|
+|2000	|1	|51	| 52	|1|	55|	56|	0|	4|
+|2001	|2	|27	| 29	|2	|27	|29|	0	|4|
+|2002	|5	|84	| 89	|8	|122|	130	|3|	7|
+|2003	|1	|59	| 60|	1|	73|	74|	1|	8|
+|2004	|3	|67	| 70	|7	|105|	112|	1|	9|
+|2005	|5	|104|	109|	7|	159	|166	|3	|12|
+|2006	|4	|105|	109|	4	|137	|141	|1	|13|
+|2007	|5	|110|	115|	6|	138	|144	|2	|15|
+|2008	|6	|91	| 97	|8|	138	|146|	0	|15|
+|2009	|7	|90	| 97	|8|	117	|125	|2	|17|
+|2010	|6	|83	| 89	|7|	113	|120|	1	|18|
+|2011	|6	|112|	118	|11	|179	|190|	0|	18|
+|2012	|6	|106|	112|	10|	135	|145	|1	|19|
+|2013	|6	|86	| 92	|7|	113|	120|	1	|20|
+|2014	|8	|94 |	102|	10|	121|	131	|2|	22|
+|2015	|3	|72	| 75	|3	|94|	97|	0|	22|
+|2016	|8	|102|	110|	16|	156|	172	|1|	23|
+|2017	|6	|91	| 97	|6|	126|	132|	0	|23|
+|2018	|4	|76	| 80	|6	|98	|104|	1	|24|
+|2019	|4	|84	| 88	|5|	106|	111	|1	|25|
+|2020	|7	|97	| 104|	11|	146|	157|	0|	25|
+|2021	|7	|74	| 81	|10	|93|	103|	2	|27|
+|2022	|3	|67 |	70|	4	|87	|91	|0	|27|
+|Total|	118|	2267|	2385	|163	|3032	|3195	| 27|	
+|Percentage |	4.95%|	95.05%|	100%|	5.10%	|94.90%	|100%|
+
+```{r Nerbioi estuary, echo=FALSE, message=FALSE, warning=FALSE}
+Nervion_temporal <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Nervion Temporal.csv")
+#str(Nervion_temporal)
+#summary(Nervion_temporal)
+
+Nervion_record <- ggplot(Nervion_temporal, aes(x=factor(Year), y=Native_record, fill="Native")) +
+  geom_bar(stat="identity", color="steelblue") +
+  geom_bar(aes(y=NIS_record, fill="NIS"), stat="identity", color="red", position="stack") +
+  scale_fill_manual(values=c("Native"="steelblue", "NIS"="red")) +
+  labs(x="Year", y="Record of species") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+      legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black", size=0.5),
+      legend.text = element_text(color = "black"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black")) +
+  scale_x_discrete(name ="Year") +
+  guides(fill=guide_legend(title="Species Type"))
+Nervion_record
+ggsave("Nervion_estuary_record.png", Nervion_record,dpi = 500,width = 8,height = 6,units = 'in')
+
+Nervion_species <- ggplot(Nervion_temporal, aes(x=factor(Year), y=No_of_Native_species, fill="Native")) +
+  geom_bar(stat="identity", color="lightgreen") +
+  geom_bar(aes(y=No_of_NIS, fill="NIS"), stat="identity", color="red", position="stack") + 
+  scale_fill_manual(values=c("Native"="lightgreen", "NIS"="red")) +
+  labs(x="Year", y="Species richness") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+      legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black", size=0.5),
+      legend.text = element_text(color = "black"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black")) +
+  scale_x_discrete(name ="Year") +
+  guides(fill=guide_legend(title="Species Type"))+
+  scale_y_continuous(breaks=seq(min(Nervion_temporal$No_of_NIS), max(Nervion_temporal$No_of_Native_species), by=10))
+Nervion_species
+ggsave("Nervion_estuary_species.png", Nervion_species,dpi = 500,width = 8,height = 6,units = 'in')
+```
+
+```{r Temporal trends in Nerbioi, echo=FALSE, message=FALSE, warning=FALSE}
+nervion_record_1 <- ggplot(Nervion_temporal, aes(x = Year)) + 
+  geom_line(aes(y = Native_record, color = "Native record")) + 
+  geom_text(aes(y = Native_record, label = No_of_sampled_stations), vjust = -1, color = "black", size = 2.5,fontface="bold")+
+  scale_y_continuous(name = "Native record",
+    limits = c(0, max(Nervion_temporal$Native_record)+50),
+    breaks = seq(0, max(Nervion_temporal$Native_record)+50, by = 50))+
+  scale_x_continuous(breaks=seq(min(Nervion_temporal$Year), 
+                                max(Nervion_temporal$Year), by=5))+
+  geom_line(aes(y = NIS_record* (max(Nervion_temporal$Native_record) + 50)/30, color = "NIS record"))+
+  scale_y_continuous(sec.axis = sec_axis(~. *30/(max(Nervion_temporal$Native_record) + 50),
+                                         name = "NIS record",
+                                         breaks = seq(0,30, by=5)),
+                     limits = c(0, (max(Nervion_temporal$Native_record) + 50)),
+                     breaks = seq(0, (max(Nervion_temporal$Native_record) + 50), by=50)) +
+  scale_color_manual(values = c("Native record" = "blue", 
+                                "NIS record" = "red"))+
+  labs( x = "Year", color = "Record") +
+  theme_classic() +
+  theme(legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black"),
+      legend.text = element_text(color = "black", face = "bold"),
+      legend.spacing.y = unit(0.1, "cm"),
+      legend.key.height = unit(0.4, "cm"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"),
+      axis.text.y.right = element_text(color = "red",face = "bold"),
+      axis.title.y.right = element_text(color = "red", face = "bold"))
+#nervion_record_1
+ggsave("Nervion_record_trend.png", nervion_record_1, width = 7,height = 6,units = 'in', dpi = 500)
+
+
+## Line chart for species
+nervion_species <- ggplot(Nervion_temporal, aes(x = Year)) + 
+  geom_line(aes(y = No_of_Native_species, color = "Native species")) + 
+  geom_text(aes(y = No_of_Native_species, label = No_of_sampled_stations), vjust = -1, color = "black", size = 2.5,fontface="bold")+
+  scale_y_continuous(name = "Native species",
+    limits = c(0, max(Nervion_temporal$No_of_Native_species) + 50),
+    breaks = seq(0, max(Nervion_temporal$No_of_Native_species) + 50, by = 50))+
+  scale_x_continuous(breaks=seq(min(Nervion_temporal$Year), max(Nervion_temporal$Year), by=5))+
+  geom_line(aes(y = No_of_NIS * (max(Nervion_temporal$No_of_Native_species) + 50) / 20, color = "NIS")) +
+  scale_y_continuous(sec.axis = sec_axis(~ . * 20 / (max(Nervion_temporal$No_of_Native_species) + 50), name = "NIS", breaks = seq(0, 20, by = 5)),name = "Native species",
+    limits = c(0, max(Nervion_temporal$No_of_Native_species) + 50),
+    breaks = seq(0, max(Nervion_temporal$No_of_Native_species) + 50, by = 50)) +
+  scale_color_manual(values = c("Native species" = "blue", 
+                                "NIS" = "red")) +
+  labs( x = "Year", color = "Species") +
+  theme_classic() +
+  theme(legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black"),
+      legend.text = element_text(color = "black", face = "bold"),
+      legend.spacing.y = unit(0.1, "cm"),
+      legend.key.height = unit(0.4, "cm"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"),
+      axis.text.y.right = element_text(color = "red",face = "bold"),
+      axis.title.y.right = element_text(color = "red", face = "bold"))
+#nervion_species
+ggsave("Nervion_NIS_trend.png", nervion_species, width = 7,height = 6,units = 'in', dpi = 500)
+
+(nervion_record_1 + nervion_species) 
+```
+
+
+```{r NIS percentage}
+perc_species <- ggplot(Nervion_temporal, aes(x = Year, y=Percent_no_NIS)) +   
+  geom_path(col="black",linewidth=0.8, lineend = "round", linejoin = "bevel") + 
+  geom_point(aes(y=Percent_no_NIS), shape=24, col="black", fill="black") +
+  annotate("text", x= 2014, y=2,label="R=0.62, p-value=0.00049, n=28")+
+  theme_classic() +
+  scale_y_continuous(name = "Number of NIS (%)",limits = c(0, max(10)),
+    breaks = seq(0, max(10), by = 1))+
+  scale_x_continuous(limits = c(min(Nervion_temporal$Year), max(2022)),breaks = seq(min(Nervion_temporal$Year), max(2022), by = 5))+
+  theme(legend.position="none",
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black", size = 11),
+      axis.title = element_text(face = "bold", colour = "black"),
+      axis.line = element_line(linewidth = 0.7, lineend = "round"),
+      axis.ticks =  element_line(linewidth = 1))
+
+perc_records <- ggplot(Nervion_temporal, aes(x = Year, y=Percent_record_NIS)) + 
+  geom_path(col="black",linewidth=0.8, lineend = "round", linejoin = "bevel") + 
+  geom_point(aes(y=Percent_record_NIS), shape=22, col="black", fill="black") +
+  annotate("text", x= 2014, y=2,label="R=0.59, p-value=0.00085, n=28")+
+  theme_classic() +
+  scale_y_continuous(name = "Records of NIS (%)",limits = c(0, max(10)),
+    breaks = seq(0, max(10), by = 1))+
+  scale_x_continuous(limits = c(min(Nervion_temporal$Year), max(2022)),breaks = seq(min(Nervion_temporal$Year), max(2022), by = 5))+
+  theme(legend.position="none",
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black", size = 11),
+      axis.title = element_text(face = "bold", colour = "black"),
+      axis.line = element_line(linewidth = 0.7,lineend = "round"),
+      axis.ticks =  element_line(linewidth = 1))
+
+(perc_records+perc_species)
+
+cor.test(Nervion_temporal$Year, Nervion_temporal$Percent_no_NIS, method = "spearman", alternative = "two.sided")
+cor.test(Nervion_temporal$Year, Nervion_temporal$Percent_record_NIS, method = "spearman", alternative = "two.sided")
+summary(lm(Nervion_temporal$Percent_no_NIS~Nervion_temporal$Year))
+```
+
+
+### Model: Temporal trends of NIS in Nerbioi
+```{r linear model for trend in Nerbioi, echo=FALSE}
+cor.temp.nervion<- cor(Nervion_temporal, method = 'spearman', use = 'everything')
+corrplot(corr = cor.temp.nervion, method = "number", type = "lower", 
+         tl.cex = 0.7, cl.pos = 'r', number.cex = 0.7,
+         number.digits=1, tl.col="black", addgrid.col='black')
+
+corr.test(Nervion_temporal, use = "pairwise",method="spearman",adjust="holm", 
+    alpha=.05,ci=TRUE,minlength=5,normal=TRUE)
+
+model.nervion <- lm(No_of_NIS ~ Year, data = Nervion_temporal)
+summary(model.nervion)
+
+# Extract coefficients
+intercept.nervion <- coef(model.nervion)[1]
+slope.nervion <- coef(model.nervion)[2]
+
+# Calculate R-squared
+r_squared.nervion <- summary(model.nervion)$r.squared
+
+# Create the scatter plot with regression line
+NIS_trend_nervion <- ggplot(Nervion_temporal, aes(x=Year, y=No_of_NIS)) +
+  geom_point() +
+  geom_smooth(method="lm", se=T, color="red") +  
+  geom_label(aes(x=Inf, y=Inf, 
+           label=sprintf("y = %.2fx%.2f\nR = %.2f", slope.nervion, intercept.nervion, r_squared.nervion)), 
+           hjust=1.0, vjust=1, size=3.5, color="black",  family="sans",
+           fill="transparent", label.padding=unit(0.5, "lines"), label.size=0.2, size=5) +
+  xlab("Year") +
+  ylab("Non-indigenous Species")+
+  theme_pubr()+
+  theme(axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+  scale_y_continuous(breaks=seq(min(Nervion_temporal$No_of_NIS), max(Nervion_temporal$No_of_NIS), by=2))
+NIS_trend_nervion
+ggsave("Nervion_trend.png", NIS_trend_nervion,dpi = 500,width = 8,height = 6,units = 'in')
+```
+
+The temporal evolution of NIS records and number of NIS exhibited low values between 1995 and 2001 in the Nerbioi estuary. From 2002 to 2022, higher values of NIS were recorded but they remained relatively constant with strong significant correlation with year (*R^2=0.69, p-value<0.05*). 
+
+Accordingly, similar trend was observed for native species records and the records of NIS, with strong positive correlation (*R^2 = 0.73, p-value < 0.05*)
+
+During the study period, the NIS records ranged  from 0 in 1995 to 16 in 2016, with 8 different species detected. It is important to note that between 1995 and 2001, only the two outer stations (E-N20 and E-N30) and the inner one (E-N10), which was azoic until 2001, were sampled. From 2002 onward, stations from the middle part of the estuary (E-N15 and E-N17), were included in the monitoring
+
+### 3.3.2	Abundance NIS and their distribution in the Nerbioi estuary
+
+```{r Nerbioi species phylum, echo=FALSE, message=FALSE, warning=FALSE}
+NIS_phylum_nervion <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Nervion NIS dataset.csv")
+#str(NIS_phylum_nervion)
+
+phylum_counts_nervion <- table(NIS_phylum_nervion$Phylum)
+phylum_proportions_nervion <- prop.table(phylum_counts_nervion) * 100
+phylum_nervion <-pie(phylum_proportions_nervion, 
+                     labels = paste(names(phylum_proportions_nervion),
+                                    sprintf("(%.1f%%)", 
+                                            phylum_proportions_nervion)))
+
+class_counts_nervion <- table(NIS_phylum_nervion$Class)
+class_proportions_nervion <- prop.table(class_counts_nervion) * 100
+class_nervion <-pie(class_proportions_nervion, 
+                    labels = paste(names(class_proportions_nervion), 
+                                   sprintf("(%.1f%%)", class_proportions_nervion)))
+```
+
+
+![Figure 4: Density and biomass of the most abundant NIS detected in theNerbioi estuary for the period 1995-2022. (A) *P. paucibranchiata* (b) *M. acherusicum* (c) *G. japonica* (d) *R. philippinarum*.](C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Abundant species in Nerbioi.png)
+
+
+
+
+Among all the NIS records of the Nerbioi estuary, only 9 species presented more than 5 records, these include; *P. paucibranchiata (n=43, 26.4%)*, *Monocorophium acherusicum* (n=16, 9.8%), *Grandidierella japonica* (n=13, 8.0%), *Ruditapes philippinarum* (n=13, 8.0%), *Theora lubrica* (n=11, 6.8%),  *X. securis* (n=11, 6.8%), *D. ornata* (n=10, 6.1%), *A. cavicoxa* (n=9, 5.5%), and *P. pulchra* (n=9, 5.5%) while the remaining species summed up to 28 records, representing 17.2%. Over the study period, high density and biomass values of *P. paucibranchiata* were observed, especially from 2008 to 2016 with low values at the beginning of the study and in recent years. For *M. acherusicum*, the highest density occurred in 2001 and since then, the density and biomass decreased gradually being hardly detected from 2017 to 2022. In contrast, *G. japonica* was firstly detected in 2015 showing its maximum abundance. In the next years although its presence was noticed in the Nerbioi estuary, the density and biomass values were reduced considerably. Since 2005,  *R. philippinarum* was detected in the Nerbioi estuary and it has presented fluctuations in the density and biomass values
+
+### 3.3.3	Spatial distribution of alien benthic species in Nerbioi estuary
+
+![Figure 4: Spatial distribution of the number and proportion of NIS and native species in the Nerbioi estuary during the period 1995-2022](C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Nerbioi NIS proportion.png)
+
+```{r Proportion, echo=FALSE, message=FALSE, warning=FALSE}
+shape_data <- st_read("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/nervion map.shp")
+
+species_data <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Nervion estuary species by Sampling point.csv")
+
+species_points <- st_as_sf(species_data, coords = c("UTMX_ED50", "UTMY_ED50"), crs = 23030)
+
+
+if (st_crs(species_points) != st_crs(shape_data)) {
+  species_points <- st_transform(species_points, crs = st_crs(shape_data))
+}
+
+Ner.richness <-ggplot() +
+  geom_sf(data = shape_data, fill = 'lightblue', color = 'black') +
+  geom_sf(data = species_points, color = 'red', aes(size = species_points$NIS.richness)) +
+  labs(size = "Number of NIS") +  # Label for the size legend
+  theme(legend.position = "right")
+Ner.richness
+ggsave("Ner.richness.png", plot = Ner.richness, width = 8,height = 6,units = 'in', dpi = 500)
+```
+
+
+
+
+### Frequent species in Nervion estuary
+
+```{r Frequent species in Nerbioi, echo=FALSE, message=FALSE, warning=FALSE}
+species_frequency_nervion <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Nervion species occurrence.csv") 
+
+species_frequency_nervion$text <- paste(species_frequency_nervion$species, "\n", species_frequency_nervion$occurrence_record)
+
+filtered_data_nervion <- species_frequency_nervion[species_frequency_nervion$occurrence_record >= 9, ]
+
+# Generate the layout for the filtered data
+packing_nervion <- circleProgressiveLayout(filtered_data_nervion$occurrence_record, sizetype='area')
+packing_nervion$radius <- 0.95 * packing_nervion$radius
+data_nervion <- cbind(filtered_data_nervion, packing_nervion)
+dat.gg_nervion <- circleLayoutVertices(packing_nervion, npoints=50)
+
+p.nervion <- ggplot() + 
+  geom_polygon_interactive(data = dat.gg_nervion, aes(x, y, group = id, fill = id, data_id = id), colour = "black", alpha = 0.6) +
+  scale_fill_viridis_c() +
+  geom_text(data = data_nervion, aes(x, y, label = gsub("text", "", text)), size = 3, color = "black", fontface = "bold") +
+  theme_void() + 
+  theme(
+    legend.position = "none", 
+    plot.margin = unit(c(0, 0, 0, 0), "cm"),
+    plot.background = element_rect(fill = "transparent"), 
+    panel.background = element_rect(fill = "transparent")
+  ) + 
+  coord_equal()
+p.nervion
+
+ggsave("Nerbioi speciesFreq.png", p.nervion, width = 7,height = 5,units = 'in', dpi = 500)
+
+```
+
+
+
+### Community composition of NIS and cryptogenic species in Nervion estuary
+We determine the benthic community composition of NIS and Cryptogenic species inhabit the Nerbioi estuary. The monitoring data were divided into 3 groups each contain data for 9years. The average density for each 9years were computed which were further standardized using the square root transformation.
+
+
+```{r Community composition of NIS}
+Nervion_comm_data <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/NIS community.csv", row.names = 1)
+site_name <- Nervion_comm_data$sites
+year <- rep(c(1,2,3),5)
+species_data <- Nervion_comm_data[,-1]
+
+### Diversity
+shannon_index <- diversity(species_data, index = "shannon")
+simpson_index <- diversity(species_data, index = "simpson")
+invsimp_index <- diversity(species_data, index = "invsimpson")
+evenness <- shannon_index/log(ncol(species_data))
+
+diversity <- data.frame(site_name,
+                        shannon_index,
+                        simpson_index,
+                        invsimp_index,
+                        evenness)
+#diversity
+
+### Shannon index plot
+div_plot<- ggplot(diversity, 
+                  aes(x= factor(site_name), y=shannon_index, fill = factor(site_name)))+
+  geom_boxplot()+
+  stat_summary(fun = mean, 
+               geom = "point",
+               shape=20,
+               size=3, 
+               color= 'black', 
+               position = position_dodge(width = 0.75))+
+  theme_classic()+
+  labs(x='Sampling stations', y= 'Shannon Index')+
+  scale_fill_brewer(palette = "Set3")+
+  theme(legend.position = "none", 
+        axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+#div_plot
+
+ggsave(filename = 'Shannon diversity.jpg', plot = div_plot, width = 7,height = 6,units = 'in', dpi = 500)
+
+### Simpson index plot
+Simps_div_plot<- ggplot(diversity, 
+                        aes(x= factor(site_name), y=simpson_index, fill = factor(site_name)))+
+  geom_boxplot()+
+  stat_summary(fun = mean, 
+               geom = "point",
+               shape=20,
+               size=3, 
+               color= 'black', 
+               position = position_dodge(width = 0.75))+
+  theme_classic()+
+  labs(x='Sampling stations', y= 'Simpson Index')+
+  scale_fill_brewer(palette = "Set3")+
+  theme(legend.position = "none", 
+        axis.text = element_text(face = "bold",  colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+#Simps_div_plot
+
+ggsave(filename = 'Simpson diversity.jpg', plot = Simps_div_plot, width = 7,height = 5,units = 'in', dpi = 500)
+
+(div_plot+Simps_div_plot)
+```
+
+### nMDS using Bray-Curtis Dissimilarity distance
+
+```{r nMDS using Bray-Curtis Dissimilarity distance}
+stad_species_data <- sqrt(species_data)
+
+bc_dist <- vegdist(stad_species_data, method = 'bray')
+#bc_dist
+
+### Average linkage Heirarchical Clustering
+hc_avg <- hclust(bc_dist, method = 'average')
+h_avg <- fviz_dend(hc_avg,rect = T, lower_rect = -0.41, 
+                   k=5, palette = c('red','blue','green','orange','black'),
+                   ylab = "Bray-Curtis Dissimilarity",
+                   main = "")
+h_avg
+ggsave(filename = 'h_avg.jpg', plot = h_avg, width = 7,height = 5, units = 'in', dpi = 500)
+
+library(pheatmap)
+pheatmap(stad_species_data,
+         cluster_cols = T,
+         cluster_rows = T,
+         show_rownames = T,
+         show_colnames = T,
+         clustering_method = "complete",
+         clustering_distance_rows = "euclidean",
+         color = colorRampPalette(c("navy", "white", "firebrick3"))(40))
+
+
+###  To check for dispersion effects
+disp <- betadisper(bc_dist, group = site_name, type = 'centroid')
+plot(disp)
+anova(disp)
+
+set.seed(123)
+nmds <- metaMDS(bc_dist)
+stress_value <- nmds$stress;stress_value
+
+nmds_scores <-as.data.frame(scores(nmds))
+nmds_scores$SiteName <- site_name
+nmds_scores$year <- year
+#nmds_scores$group <- cutree(hclust(dist(nmds_scores)),5)
+
+plot <- ggplot(nmds_scores, aes(x=NMDS1, y=NMDS2, color=as.factor(site_name)))+
+  geom_point(shape=17)+
+  geom_text_repel(aes(label=row.names(nmds_scores)), size=3.5, fontface="bold")+
+  scale_color_manual(values = c('red','blue','green','orange','black'))+
+  scale_y_continuous(limits = c(-2, max(2.5)),breaks = seq(-2, max(2.5), by = 1))+
+  theme_minimal()+
+  labs(color = 'Stations', x="NMDS1", y='NMDS2',
+       subtitle = paste('nmds (Stress:',round(stress_value,2),')'))+
+  theme(legend.justification = c('right','top'),
+        legend.box.just = 'right',
+        #legend.margin = margin(6,6,6,6),
+        legend.background = element_rect(fill = 'white', colour = 'black', size = 0.1),
+        legend.box.background = element_rect(colour = 'black', linetype = 'solid'),
+        legend.text = element_text(color = "black", face = "bold"),
+        plot.background = element_rect(fill = "transparent"),
+        panel.background = element_rect(fill = "transparent"),
+        axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+plot
+
+ggsave(filename = 'plot.png', plot = plot, width = 7, height = 5,units = 'in', dpi = 500)
+
+### PERMANOVA significant 
+set.seed(123)
+
+# Based on the Sites and year
+perm <- adonis2(bc_dist~SiteName*year,
+                data=nmds_scores,
+                permutations = 9999,
+                method = 'bray')
+perm
+
+
+### Simper Analysis for species contributor
+set.seed(123)
+simper <- simper(stad_species_data, 
+                 nmds_scores$SiteName, 
+                 permutations = 9999)
+#(summary(simper))
+
+#install.packages("labdsv")
+#library(labdsv)
+#composition<- stad_species_data[, colSums(stad_species_data)!=0]
+#ind.species <-indval(composition, nmds_scores$SiteName)
+#relfreq<-ind.species$relfrq #Faithfulness
+#specificity <-ind.species$indval #Specificity
+#relabu <-ind.species$relabu #Relative abundance
+
+#write.csv(relfreq, "relative freq.csv")
+#write.csv(specificity, "specificity.csv")
+#write.csv(relabu, "relabu.csv")
+```
+
+### Correlation with Environmental data
+The NMDS plot was further fit with the average environmental condition of the Nervion estuary over the period of 1995-2022, to see the influence of the environment on the NIS species structure
+
+```{r Correlation with Environmental data, echo=FALSE}
+
+nerv_ent <- read.csv('C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/nervion_env_1.csv')
+nerv_ent <- nerv_ent[,-c(1,2)]
+
+#cor<-cor(nerv_ent)
+#corrplot(cor, 
+#        method = "ellipse", 
+#         type = "lower",
+#         tl.cex = 0.6, 
+#         cl.pos = 'r', 
+#         number.cex = 0.7,
+#         number.digits=1, 
+#         tl.col="black", 
+#         addgrid.col='black')
+
+
+fit_env <- envfit(nmds, nerv_ent)
+
+fit_vec <- as.data.frame(scores(fit_env, 'vectors'))
+fit_vec$variable <- row.names(fit_vec)
+
+arrow_length <- 3
+
+nmds_env <- plot +
+  geom_segment(data = fit_vec, 
+               aes(x=0, y=0, xend=NMDS1*arrow_length, yend=NMDS2*arrow_length),
+               arrow = arrow(type = 'closed', length = unit(0.05, 'inches')), color= 'brown')+
+  geom_text(data = fit_vec,
+            aes(x=NMDS1*(arrow_length+0.1), y=NMDS2*(arrow_length+0.1),label= variable),
+            vjust=0, 
+            hjust=0,
+            color='black', 
+            cex=2.5, 
+            fontface="bold")
+#nmds_env
+ggsave(filename = 'nmds_env.png', plot = nmds_env, width = 7, height = 5, units = 'in', dpi = 500)
+
+(plot+nmds_env)
+```
+
+In order to analyse the spatial pattern of NIS, the nMDS plot depicted two distinct groupings, which were further divided into four subgroups. The two main groups were based on habitat, while the four subgroups could be classified by years. Fitting the environmental parameters to the nMDS, it was observed that during the first 9 year period (1996-2004) the inner estuary was characterized by the presence of Niquel and organic matter while in the second (2005-2013) and third periods (2014-2022), it was influenced by the temperature, chromium, gravel, zinc, and cadmium. In the outer part, oxygen saturation, redox potential, manganese and iron were the influencing parameters in the second and third periods. It should be highlighted that the first 9 year periods of E-N20 and E-N30 were not well fitted. PERMANOVA analysis further showed significant differences in the NIS composition between and within the stations and years. The stations exhibited *p= 0.0002* and *R^2 = 0.43* Among the years, *p =  0.0006* and *R^2 =0.13*.
+
+### Native community composition in Nerbioi
+
+```{r native diversity}
+Nervion_native <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Native community.csv", row.names = 1)
+
+site <- Nervion_native$sites
+year <- rep(c(1,2,3),5)
+species_dat <- Nervion_native[,-1]
+
+### Diversity
+shannon_index_native <- diversity(species_dat, index = "shannon")
+simpson_index_native <- diversity(species_dat, index = "simpson")
+invsimp_index_native <- diversity(species_dat, index = "invsimpson")
+evenness_native <- shannon_index_native/log(ncol(species_dat))
+
+diversity_native <- data.frame(site,shannon_index_native,simpson_index_native,invsimp_index_native,evenness_native)
+#diversity_native
+
+df_lon_native <- ggplot(diversity_native, 
+                        aes(x= factor(site), y=shannon_index_native, fill = factor(site)))+
+  geom_boxplot()+
+  stat_summary(fun = mean, 
+               geom = "point",
+               shape=20,
+               size=3,
+               color= 'black', 
+               position = position_dodge(width = 0.75))+
+  theme_classic()+
+  labs(x='Sampling stations', y= 'Native Shannon Index')+
+  scale_fill_brewer(palette = "Set3")+
+  theme(legend.position = "none", 
+        axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+#df_lon_native
+
+ggsave(filename = 'Native diversity.jpg', plot = div_plot, width = 8,height = 6,units = 'in', dpi = 500)
+
+Simps_div_native<- ggplot(diversity_native, 
+                          aes(x= factor(site), y=simpson_index_native, fill = factor(site)))+
+  geom_boxplot()+
+  stat_summary(fun = mean, 
+               geom = "point",
+               shape=20,
+               size=3, 
+               color= 'black', 
+               position = position_dodge(width = 0.75))+
+  theme_classic()+
+  labs(x='Sampling stations', y= 'Native Simpson Index')+
+  scale_fill_brewer(palette = "Set3")+
+  theme(legend.position = "none", 
+        axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+#Simps_div_native
+
+### combined diversity
+(div_plot+Simps_div_plot)/(df_lon_native+Simps_div_native)
+```
+
+### Combining all the benthic data in Nerbioi estuary
+
+```{r benthic composition, echo=FALSE}
+benthic_comp <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Nerbioi community.csv", row.names = 1)
+
+site <- benthic_comp$sites
+year <- rep(c(1,2,3),5)
+benthos_dat <- benthic_comp[,-1]
+
+### Diversity
+shannon <- diversity(benthos_dat, index = "shannon")
+simpson <- diversity(benthos_dat, index = "simpson")
+invsimp <- diversity(benthos_dat, index = "invsimpson")
+evenness <- shannon/log(ncol(benthos_dat))
+
+diversity <- data.frame(site,
+                        shannon,
+                        simpson,
+                        invsimp,evenness)
+#diversity
+
+benthos_shannon <- ggplot(diversity, 
+                        aes(x= factor(site), y=shannon, fill = factor(site)))+
+  geom_boxplot()+
+  stat_summary(fun = mean, 
+               geom = "point",
+               shape=20,
+               size=3,
+               color= 'black', 
+               position = position_dodge(width = 0.75))+
+  theme_classic()+
+  labs(x='Sampling stations', y= 'Benthos Shannon Index')+
+  scale_fill_brewer(palette = "Set3")+
+  theme(legend.position = "none", 
+        axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+#benthos_shannon
+
+
+benthos_simp<- ggplot(diversity, 
+                          aes(x= factor(site), y=simpson, fill = factor(site)))+
+  geom_boxplot()+
+  stat_summary(fun = mean, 
+               geom = "point",
+               shape=20,
+               size=3, 
+               color= 'black', 
+               position = position_dodge(width = 0.75))+
+  theme_classic()+
+  labs(x='Sampling stations', y= 'Benthos Simpson Index')+
+  scale_fill_brewer(palette = "Set3")+
+  theme(legend.position = "none", 
+        axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+(benthos_shannon+benthos_simp)
+```
+
+### Benthic community composition in Nerbioi estuary
+
+```{r Benthic community, echo=FALSE}
+normalise_benthos <- sqrt(benthos_dat)
+
+bc_dist <- vegdist(normalise_benthos, method = 'bray')
+#bc_dist
+
+### Average linkage Heirarchical Clustering
+hc_avg <- hclust(bc_dist, method = 'average')
+h_avg <- fviz_dend(hc_avg,rect = T, lower_rect = -0.41, 
+                   k=4, palette = c('red','blue','green','orange'),
+                   ylab = "Bray-Curtis Dissimilarity",
+                   main = "")
+h_avg
+
+###  To check for dispersion effects
+disp <- betadisper(bc_dist, group = site, type = 'centroid')
+plot(disp)
+anova(disp)
+
+set.seed(1234)
+nmds <- metaMDS(bc_dist)
+stress_value <- nmds$stress;stress_value
+
+nmds_scores <-as.data.frame(scores(nmds))
+nmds_scores$SiteName <- site
+nmds_scores$year <- year
+
+plot <- ggplot(nmds_scores, aes(x=NMDS1, y=NMDS2, color=as.factor(SiteName)))+
+  geom_point()+
+  geom_text_repel(aes(label=row.names(nmds_scores)), size=3.5, fontface="bold")+
+  scale_color_manual(values = c('red','blue','green','orange','black'))+
+  theme_minimal()+
+  labs(color = 'Stations', x="NMDS1", y='NMDS2',
+       subtitle = paste('nmds (Stress:',round(stress_value,2),')'))+
+  theme(legend.justification = c('right','top'),
+        legend.box.just = 'right',
+        #legend.margin = margin(6,6,6,6),
+        legend.background = element_rect(fill = 'white', colour = 'black', size = 0.1),
+        legend.box.background = element_rect(colour = 'black', linetype = 'solid'),
+        legend.text = element_text(color = "black", face = "bold"),
+        plot.background = element_rect(fill = "transparent"),
+        panel.background = element_rect(fill = "transparent"),
+        axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+plot
+
+### PERMANOVA significant 
+set.seed(1234)
+
+# Based on the Sites and year
+perm <- adonis2(bc_dist~SiteName*year,
+                data=nmds_scores,
+                permutations = 9999,
+                method = 'bray')
+perm
+
+
+### Simper Analysis for species contributor
+set.seed(1234)
+simper <- simper(normalise_benthos, 
+                 nmds_scores$SiteName, 
+                 permutations = 9999)
+#(summary(simper))
+
+
+#library(labdsv)
+#composition<- normalise_benthos[, colSums(normalise_benthos)!=0]
+#ind.species <-indval(composition, nmds_scores$SiteName)
+#relfreq<-ind.species$relfrq #Faithfulness
+#specificity <-ind.species$indval #Specificity
+#relabu <-ind.species$relabu #Relative abundance
+
+#write.csv(relfreq, "relative freq.csv")
+#write.csv(specificity, "specificity.csv")
+#write.csv(relabu, "relabu.csv")
+```
+
+### Relationship between the Native diversity and NIS
+
+```{r Relationship between the Native diversity and NIS, echo=FALSE, message=FALSE, warning=FALSE}
+diversity_index <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Nervion_diversity.csv")
+
+
+diversity_index$Percent.of.NIS <- as.numeric(gsub("%", "", diversity_index$Percent.of.NIS))
+diversity_index$Percent.of.Native <- as.numeric(gsub("%", "", diversity_index$Percent.of.Native))
+
+
+model_shannon <- lm(Shannon.index ~ Percent.of.NIS, data = diversity_index)
+summary(model_shannon)
+model_simpson <- lm(Simpson.index ~ Percent.of.NIS, data = diversity_index)
+summary(model_simpson)
+
+summary_shannon <- summary(model_shannon)
+eq_shannon <- paste("y =", format(coef(model_shannon)[2], digits = 4),"X", "+",
+                    format(coef(model_shannon)[1], digits = 4),"\n",
+                    "R =", format(summary_shannon$r.squared, digits = 3),"\n",
+                    "p = ", "0.007")
+
+
+summary_simpson <- summary(model_simpson)
+eq_simpson <- paste("y =", format(coef(model_simpson)[2], digits = 3),"X", "+",
+                    format(coef(model_simpson)[1], digits = 2),"\n",
+                    "R =", format(summary_simpson$r.squared, digits = 3),"\n",
+                    "p =", "0.058")
+
+
+p.div <- ggplot(diversity_index, aes(x = Percent.of.NIS)) +
+  geom_point(aes(y = Shannon.index, color = "Shannon index"), size = 3) +
+  geom_smooth(method = "lm", aes(y = Shannon.index, color = "Shannon index"), se = F) +
+  scale_y_continuous(breaks=seq(min(0), max(4), by=1), limits = c(0, max(4)))+
+  scale_x_continuous(breaks=seq(min(1), max(15), by=2))+
+  geom_point(aes(y = Simpson.index, color = "Simpson index"), size = 3) +
+  geom_smooth(method = "lm", aes(y = Simpson.index, color = "Simpson index"), se = F) +
+  annotate("text", x = max(diversity_index$Percent.of.NIS, na.rm = TRUE), y = max(diversity_index$Shannon.index, na.rm = TRUE), label = eq_shannon, hjust = 1, vjust = 1.4, size = 4, color = "black", fontface = "bold", family="Times New Roman") +
+  annotate("text", x = max(diversity_index$Percent.of.NIS, na.rm = TRUE), y = min(diversity_index$Simpson.index, na.rm = TRUE), label = eq_simpson, hjust = 1, vjust = 0, size = 4, color = "black",fontface = "bold") +
+  labs(x = "Percent of NIS", y = "Index Value", color="Diversity index") +
+  theme_classic()+
+  theme(legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black"),
+      legend.text = element_text(color = "black", face = "bold"),
+      legend.spacing.y = unit(0.1, "cm"),
+      legend.key.height = unit(0.4, "cm"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"),
+      axis.text.y.right = element_text(color = "red",face = "bold"))
+p.div
+
+ggsave("nervion diversity.png", plot = p.div, width = 8,height = 6,units = 'in', dpi = 500)
+```
+
+Significant decline in native diversity was observed with increasing percentage of NIS at sampling stations when native Shannon index was used (*p-value = 0.007, R2 = 0.93*)
+On the other hand, non-significant relationship was found between the Simpson native diversity index and the percentage of NIS in the Nerbioi estuary (*p-value =0.059, R2= 0.748*)
+
+### Maritime traffic in the port of Bilbao
+In addition, the estuary contains the largest commercial port in the northern Iberian Peninsula (Port of Bilbao). Data from the port were secured and used in this research.
+
+#### Ballast water estimate
+
+```{r Ballast water, message=FALSE, warning=FALSE, include=FALSE}
+ballast <-read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Ballast water.csv")
+
+# Ballast water vs Nerbioi NIS records
+ballast.cor<- cor(ballast, method = 'spearman', use = 'everything')
+corrplot(corr = ballast.cor, method = "number", type = "lower", 
+         tl.cex = 0.7, cl.pos = 'r', number.cex = 0.7,
+         number.digits=1, tl.col="black", addgrid.col='black',bg="transparent")
+
+summary(lm(ballast$Loaded ~ ballast$Year))
+summary(lm(ballast$Discharged ~ ballast$Year))
+
+summary(lm(ballast$Loaded ~ ballast$NIS+ballast$NIS_Records))
+summary(lm(ballast$Discharged ~ ballast$NIS+ballast$NIS_Records))
+
+mod.ballast <- lm(NIS_Records ~ Estimated.BW, ballast)
+summary(mod.ballast)
+
+intercept.ballast <- coef(mod.ballast)[1]
+slope.ballast <- coef(mod.ballast)[2]
+
+r_squared.ballast <- summary(mod.ballast)$r.squared
+
+
+ballast.tr <- ggplot(ballast, aes(x= Estimated.BW, y=NIS_Records)) +
+  geom_point(size = 3, color = "blue", alpha = 1) +
+  geom_smooth(method="lm", se=T, color="red", linetype="dashed", size=1) +  
+  geom_label(aes(x=Inf, y=Inf, 
+           label=sprintf("y = %.2fx%.2f\nR = %.2f", 
+                         slope.ballast, 
+                         intercept.ballast, 
+                         r_squared.ballast)), 
+           hjust=1.0, vjust=1, size=3.5, 
+           color="black",
+           fill="transparent", 
+           label.padding=unit(0.5, "lines"), 
+           label.size=0.2, size=5) +
+  xlab("Estimated Ballast water taken (tons)") +
+  ylab("NIS records")+
+  theme_pubr()+
+  theme(axis.text = element_text(face = "bold", colour = "black", size = 12),
+      axis.title = element_text(face = "bold", colour = "black", size = 14),
+      plot.background = element_rect(fill = "transparent"), 
+    panel.background = element_rect(fill = "transparent"))+
+  scale_y_continuous(breaks=seq(min(ballast$NIS_Records), max(ballast$NIS_Records), by=2))
+ballast.tr
+
+
+### Nerbioi species
+mod.ballast.spp <- lm(NIS ~ Estimated.BW, data = ballast)
+summary(mod.ballast.spp)
+
+intercept.ballast.spp <- coef(mod.ballast.spp)[1]
+slope.ballast.spp <- coef(mod.ballast.spp)[2]
+
+r_squared.ballast.spp <- summary(mod.ballast.spp)$r.squared
+
+ballast.tr.spp <- ggplot(ballast, aes(x=Estimated.BW, y=NIS)) +
+  geom_smooth(method="lm", se=T, color="red") +  
+  geom_label(aes(x=Inf, y=Inf, 
+           label=sprintf("y = %.2fx + %.2f\nR = %.2f", 
+                         slope.ballast.spp, 
+                         intercept.ballast.spp, 
+                         r_squared.ballast.spp)), 
+           hjust=1.0, vjust=1, size=3.5, 
+           color="black",
+           fill="transparent", 
+           label.padding=unit(0.5, "lines"), 
+           label.size=0.2, size=5) +
+  xlab("Estimated Ballast water taken") +
+  ylab("Number of NIS")+
+  theme_pubr()+
+  theme(axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+ballast.tr.spp
+
+(ballast.tr.spp+ballast.tr)
+
+
+## Discharged and Loaded cargo
+carg <- ballast[,c(1:3)]
+carg.piv <- pivot_longer(carg, cols = c("Discharged", "Loaded"),
+                         names_to = "type",
+                         values_to = "tons")
+cargo.op <-ggplot(carg.piv, aes(x=Year, y=tons, color=type))+
+  geom_path(stat = "identity", 
+            position = position_dodge(width = 0.8), 
+            size=0.9,
+            lineend = "round",
+            linejoin = "round")+
+  labs(x="Year", y="Cargo (tons)", color="Cargo operation")+
+  theme_classic()+
+  theme(
+    axis.text = element_text(face = "bold", color = "black"),
+    axis.title = element_text(face = "bold", color = "black"),
+    legend.text = element_text(color = "black"),
+    plot.background = element_rect(fill = "transparent"), 
+    panel.background = element_rect(fill = "transparent"),
+    axis.title.y.right = element_text(color = "red", face = "bold"),
+    legend.justification = c("right", "top"),
+    legend.direction="vertical",
+    legend.background = element_rect( color="black", size=0.5),
+    legend.spacing.y = unit(0.1, "cm"),
+    legend.key.height = unit(0.2, "cm")
+  )
+cargo.op
+```
+
+#### Vessel distribution over the years
+
+```{r Vessel, include=FALSE}
+vs <- read_xlsx("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/vessel_type.xlsx")
+
+vs<-na.omit(vs)
+
+vs.cor<- cor(vs, method = 'spearman')
+
+
+corrplot(corr = vs.cor, method = "number", type = "lower", 
+         tl.cex = 0.7, cl.pos = 'r', number.cex = 0.7,
+         number.digits=1, tl.col="black", addgrid.col='black',bg="transparent")
+
+vs_tp <- pivot_longer(data = vs, cols = c(Slabs,`General Merchandise`, `Solid bulk`, `Liquid bulk`, Containers, Passsenger, RORO, Cruises),names_to = "vessel_type", values_to = "Count" )
+
+vs.type<-ggplot(data = vs_tp, aes(y=Count, x=Year, color = vessel_type))+
+  geom_path(stat = "identity", 
+            position = position_dodge(width = 0.8), 
+            size=0.9,
+            lineend = "round",
+            linejoin = "round")+
+  labs(x="Year", y="No of vessel", color="Vessel type")+
+  scale_color_viridis_d(option = "plasma")+
+  theme_classic()+
+  theme(
+    axis.text = element_text(face = "bold", color = "black"),
+    axis.title = element_text(face = "bold", color = "black"),
+    legend.text = element_text(color = "black"),
+    plot.background = element_rect(fill = "transparent"), 
+    panel.background = element_rect(fill = "transparent"),
+    axis.title.y.right = element_text(color = "red", face = "bold"),
+    legend.spacing.y = unit(0.1, "cm"),
+    legend.key.height = unit(0.2, "cm"),
+    legend.justification = c("right", "top")
+  )
+vs.type 
+
+```
+
+#### Cargo
+
+```{r Cargo, echo=FALSE}
+cargo <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/cargo_data.csv")
+
+cargo_long <- cargo %>%
+  pivot_longer(cols = c("Discharge", "Loading"), names_to = "cargo", values_to = "value")
+
+carg <-ggplot(cargo_long, aes(x=Continent, y=value, fill=cargo)) +
+  geom_bar(stat="identity", position = position_dodge(width = 0.8)) +
+  scale_fill_manual(values=c("Discharge"="blue", "Loading"="red")) +
+  labs(x="Continent", y="Cargo", fill="Cargo operation") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+      legend.position="top",
+      legend.justification = c("right", "top"),
+      legend.direction="vertical",
+      legend.background = element_rect( color="black", size=0.5),
+      legend.text = element_text(color = "black", face = "bold"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"),
+      axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"),
+      legend.spacing.y = unit(0.1, "cm"),
+      legend.key.height = unit(0.2, "cm")) +
+  scale_x_discrete(name ="Continent") 
+#carg
+ggsave("cargo.png", carg, width = 7,height = 6,units = 'in', dpi = 500)
+
+vs.type
+cargo.op
+carg
+```
+
+From the available data on maritime activities of the Bilbao port, eight major types of vessels operate, being container vessels, solid bulk, liquid bulk, and general merchandise vessels the ones with the highest number of vessels moving in and out every year. In contrast, passenger, Ro-Ro, slab and cruise vessels were less abundant all year rounds in the Bilbao port. In terms of cargo operations, there were more discharged cargos than loading cargos with an average difference of *11804681.52* tons over the years. An increasing trend in the tons of cargo loading was observed from 2002 to 2023 (*R^2 = 0.64, p-value<0.05*) but no temporal trend was detected in the tons of discharged cargo, *R^2 = 0.13, p-value=0.113* 
+The port of Bilbao serves different parts of the world, but the majority of the cargo operations are concentrated in Europe with a discharge of *217,599,766.13* tons of cargo and loading of *115,887,618.31* tons over the period 2002-2023
+
+### Influence of Bilbao port activities on NIS of the Nerbioi estuary
+
+```{r Maritime traffic, echo=FALSE}
+vessel <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/vessel_data.csv")
+
+cor<- cor(vessel, method = 'spearman', use = 'everything')
+corrplot(corr = cor, method = "number", type = "lower", 
+         tl.cex = 0.7, cl.pos = 'r', number.cex = 0.7,
+         number.digits=2, tl.col="black", addgrid.col='black',bg="transparent")
+
+summary(lm(vessel$NIS_record ~ vessel$Total.vessel))
+summary(lm(vessel$NIS ~ vessel$Total.vessel))
+
+
+data_l <- vessel %>%
+  pivot_longer(cols = c("NIS_records", NIS), names_to = "NIS", values_to = "Count")
+
+primary_max <- max(vessel$Total.vessel, na.rm = TRUE)
+secondary_max <- 25
+scaling_factor <- primary_max / secondary_max
+
+vessel_bar <-ggplot() + 
+  geom_bar(data = data_l, aes(x = Year, y = Count * scaling_factor, fill = NIS), 
+           stat = "identity", position = position_dodge(width = 0.8), size=0.7) +
+  geom_line(data = vessel,
+            aes(x = Year, y = Total.vessel), 
+            size = 1, color = "darkgreen") +
+  geom_point(data = vessel, aes(x = Year, y = Total.vessel), 
+             size = 2, color = "darkgreen") +
+  scale_y_continuous(
+    name = "Total number of vessels",
+    limits = c(0, primary_max),
+    sec.axis = sec_axis(~ ./scaling_factor, 
+                        name = "Non-indigenous record",
+                        breaks = seq(0, secondary_max, 5))) +
+  labs(x = "Year", fill = "NIS", color="Total vessel") +
+  scale_fill_manual(values = c("NIS_records" = "blue", "NIS"="red")) +
+  theme_classic() +
+  theme(
+    axis.text = element_text(face = "bold", color = "black"),
+    axis.title = element_text(face = "bold", color = "black"),
+    legend.text = element_text(color = "black", face = "bold"),
+    plot.background = element_rect(fill = "transparent"), 
+    panel.background = element_rect(fill = "transparent"),
+    axis.title.y.right = element_text(color = "red", face = "bold"),
+    legend.justification = c("right", "top"),
+    legend.direction="vertical",
+    legend.position = "top",
+    legend.background = element_rect( color="black", size=0.5),
+    legend.spacing.y = unit(0.0, "cm"),
+    legend.key.height = unit(0.1, "cm")
+  )
+vessel_bar
+ggsave("vessel_bar.png", vessel_bar, width = 8,height = 6,units = 'in', dpi = 500)
+```
+
+
+
+Over the years, the total number of vessels arriving at the Bilbao port exhibited a downward trend, reaching a low point in 2020 due to the Covid-19 pandemic. This trend was also reflected in the records and number of NIS, which showed a strong negative correlation (*p<0.05, n = 28, R = -0.62 and  R=-0.63*, respectively). 
+Notably, the period of low NIS records coincided with high records of total vessels at the port of Bilbao. 
+Analysing the correlation between cargo discharge and loading with the records and number of NIS in the Nerbioi estuary, no significant correlation was found with loading (*species: R=0.21 and records: R=0.28*) and discharging (*species: R=-0.36 and record: R=-0.42*) at *p>0.05*
+
+
+## 3.4	The Invasive species: *Xenostrobus securis*
+
+Among the NIS detected in Basque waters, the only species that could be considered invasive in the Spanish catalogue of alien species is the mussel *X. securis*.
+
+|Estuary|	Station code|	Year| 	Density (ind. m-2)|	Biomass (g. m-2)|
+|-------:|--------------:|-----------|--------------:|---------------:|
+|Barbadun	|E-M10|	2014|	3.0	|0.0051|
+|Nerbioi	|E-N10|	2014|	17.0|	0.0343|
+||	E-N10|	2015|	23.3|	0.1467|
+||	E-N10	|2016|	3.0	|0.018|
+||	E-N10|	2019|	7.0	|0.0197|
+||	E-N10	|2020|	27.0|	0.3377|
+||	E-N10|	2021|	50.0|	1.572|
+||	E-N15|	2013|	3.3	|0.049|
+||	E-N15	|2019|	3.0	|0.009|
+||	E-N15|	2020|	3.0|	0.0103|
+||	E-N15|	2022|	3.0|	0.0143|
+||	E-N17|	2021|	3.0|	0.0037|
+|Oka	|E-OK20	|2020|	1.0	|0.0029|
+|Lea	|E-L10|	2021|	1.0	|0.0016|
+||	E-L10	|2022|	3.0|	0.01|
+|Urumea	|E-UR10	|2021	|1.0|	0.0021|
+|Oiartzun	|E-OI10	|2016|	7.0|	0.009|
+||	E-OI15|	2014|	3.0	|0.0017|
+||	E-OI15|	2015|	3.3|	0.0033|
+||	E-OI15|	2019|	3.0	|0.003|
+||	E-OI20|	2019|	3.0	|0.0097|
+|Bidasoa	|E-B10|	2021|	3.0	|0.0047|
+||	E-BI20|	2014|	1.0	|0.0004|
+
+#### Spatial distribution of Xenostrobus in Basque estuaries
+
+![Distribution of Xenostrobus in Basque estuaries](C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Spatial density of Xenostrobus.png)
+
+#### Temporal trends of Xenostrobus
+
+```{r Temporal trends of Xenostrobus, echo=FALSE}
+Year <- c(1995, 1996, 1997,1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007,
+          2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020,
+          2021, 2022)
+No_of_record <- c(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,4,2,2,0,0,4,3,5,2)
+
+Xenostrobus_temporal <- data.frame(Year,No_of_record)
+trend <- ggplot(Xenostrobus_temporal, aes(x=Year, y=No_of_record)) +
+  geom_area(fill="lightblue") +
+  geom_line(color="red") +
+  labs(x="Year", y="Number of Records") +
+  theme_classic()+
+  scale_x_continuous(breaks=seq(min(Xenostrobus_temporal$Year), max(Xenostrobus_temporal$Year), by=2))+
+  theme(axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"),
+      plot.background = element_rect(fill = "transparent"), 
+      panel.background = element_rect(fill = "transparent"))
+trend
+
+#trend+transition_reveal(after_stat(x))
+
+ggsave("Xenostrobus.png", plot = trend, width = 8,height = 6,units = 'in', dpi = 500, bg="transparent")
+```
+
+#### Influence of Environmental condition of Nerbioi estuary
+
+```{r Influence of Environmental condition}
+xen <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/data/Xenostrobus with Nervion envt.csv")
+#describe(xen)
+
+vessel <- c(2872, 2828, 2821,2829, 2347, 2679, 2800, 2829,2347,2651, 2679)
+
+Xen.vessel <- xen[,-c(1:4,25:27)]
+Xen.vessel <- data.frame(Xen.vessel,vessel)
+
+# correlation among our dataset
+xen.cor<- cor(Xen.vessel, method = 'spearman', use = 'everything')
+
+
+corrplot(corr = xen.cor, method = "number", type = "lower", 
+         tl.cex = 0.7, cl.pos = 'r', number.cex = 0.7,
+         number.digits=2, tl.col="black", addgrid.col='black',bg="transparent")
+
+
+# Models
+mod1 <- lm(Density~Gravel....,data = Xen.vessel)
+summary(mod1)
+
+mod2 <- lm(Density~O2....,data = Xen.vessel)
+summary(mod2)
+
+mod3 <- lm(Density~SAL,data = Xen.vessel)
+summary(mod3)
+
+mod4 <- lm(Density~O2....+Gravel....,data = Xen.vessel)
+summary(mod4)
+
+mod5 <- lm(Density~O2....+Gravel....+SAL,data = Xen.vessel)
+summary(mod5)
+AIC(mod1,mod2, mod3,mod4,mod5)
+
+# Extract coefficients
+intercept.xen <- coef(mod1)[1]
+slope.xen <- coef(mod1)[2]
+
+# Calculate R-squared
+r_squared.xen <- summary(mod1)$r.squared
+
+
+Xen.gravel <- ggplot(Xen.vessel, aes(x=Gravel...., y=Density)) +
+  geom_point() +
+  geom_smooth(method="lm", se=F, color="red") +  
+  geom_label(aes(x=Inf, y=Inf, 
+           label=sprintf("y = %.2fx + %.2f\nR = %.2f", 
+                         slope.xen, 
+                         intercept.xen, 
+                         r_squared.xen)), 
+           hjust=1, vjust=1.7, size=3.5, 
+           color="black",
+           fontface="bold",
+           fill="transparent", label.padding=unit(0.5, "lines"), label.size=0.2) +
+  xlab("Gravel (%)") +
+  ylab("Density (ind/m2)")+
+  theme_pubr()+
+  theme(axis.text = element_text(face = "bold", colour = "black"),
+      axis.title = element_text(face = "bold", colour = "black"))
+
+Xen.gravel
+
+ggsave("Xen_gravel.png", plot = Xen.gravel, width = 8,height = 6,units = 'in', dpi = 500)
+```
+
+#### Oiartzun estuary
+
+```{r Oiartzun estuary, echo=FALSE}
+Oairtzun <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/R result/Data/Oiartzun.csv")
+
+pivot_Oairtzun <- Oairtzun %>%
+  pivot_longer(cols = c("Annelida", "Arthropoda","Mollusca"), names_to = "phylum", values_to = "records")
+
+bar_oairtzun <-ggplot(pivot_Oairtzun, aes(x=Year, y=records, fill=phylum)) +
+  geom_bar(stat="identity", position = "stack") +
+  geom_line(pivot_Oairtzun, mapping= aes(x = Year, y = Species, group = 1), size = 0.8) +
+  geom_point(pivot_Oairtzun, mapping = aes(x = Year, y = Species)) +
+  labs(x = "Year", fill = "phylum", y="Records") +
+  theme_classic() +
+  theme(
+    axis.text = element_text(face = "bold", color = "black"),
+    axis.title = element_text(face = "bold", color = "black"),
+    legend.text = element_text(color = "black", face = "bold"),
+    legend.position = "top",
+    legend.justification = c("right", "top"),
+    legend.direction="vertical",
+    plot.background = element_rect(fill = "transparent"), 
+    panel.background = element_rect(fill = "transparent")
+  )+
+  scale_fill_simpsons()
+bar_oairtzun
+ggsave("oairtzun.png", bar_oairtzun, width = 7,height = 6,units = 'in', dpi = 500)
+```
+
+### Species Distribution modelling using Biomod2
+*Pseudopolydora* *paucibranchiata* is an alien species in the Basque coastal.This is just to know the distribution of this species in EU and predict their distribution under the influence of climate change.
+
+##### Using dataset from GBIF for *Pseudopolydora paucibranchiata*
+```{r Gbif data for p. paucibranchiata, echo=FALSE}
+occurrences <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/AZTI Benthos data/Pseudopolydora.GBIF/New/Pseudopolydora.csv") 
+occurrences$value <- 1
+coordinates(occurrences) <- ~Longitude+Latitude
+proj4string(occurrences) <- CRS("+proj=longlat +datum=WGS84")
+remove.duplicates(occurrences)
+```
+
+
+##### Environmental data from Bio-Oracle
+```{r Environmental data}
+#list_datasets(marine = T)
+#list_layers(datasets = "Bio-ORACLE", marine = T)
+layers_correlation(layercodes = c('BO_sstmax', 
+                                  'BO_sstmean', 
+                                  'BO_sstmin', 
+                                  'BO_bathymin', 
+                                  'BO_bathymax',
+                                  'BO_bathymean',
+                                  'BO_salinity',
+                                  'BO_dissox'))
+pred <-load_layers(layercodes = c('BO_sstmax', 
+                           'BO_sstmean', 
+                           'BO_sstmin', 
+                           'BO_bathymin', 
+                           'BO_bathymax',
+                           'BO_bathymean',
+                           'BO_salinity',
+                           'BO_dissox'), 
+            rasterstack = T,
+            equalarea = F,
+            datadir="C:/Users/bakaz/OneDrive/Documents/R/bio_oracle_env_data")
+future <- get_future_layers(c('BO_sstmax',
+                              'BO_sstmean',
+                              'BO_sstmin',
+                             'BO_salinity'), 
+                            scenario = 'B1', year = 2100)
+
+future <-load_layers(c('BO_B1_2100_salinity',
+                       'BO_B1_2100_sstmax', 
+                       'BO_B1_2100_sstmean', 
+                       'BO_B1_2100_sstmin'),
+                     rasterstack = T)
+
+```
+
+```{r loading the predictors}
+env_layers <- pred
+plot(env_layers)
+#env_fut <- future
+```
+
+
+```{r MaxEnt}
+args <- c("randomseed", "skipifexists", "redoifexists")
+
+maxent_model <- maxent(env_layers, occurrences, args=args)
+#maxent_model_fut <- maxent(env_fut, occurrences, args=args)
+
+maxent_model
+```
+
+
+
+```{r Model evaluation}
+plot(maxent_model)
+response(maxent_model)
+
+```
+
+
+```{r Project model onto environmental layers}
+prediction <- predict(maxent_model, env_layers)
+#prediction_fut <- predict(maxent_model_fut, env_fut)
+
+# Plotting the prediction
+plot(prediction)
+points(occurrences)
+#plot(prediction_fut)
+```
+
+
+
+```{r Geographical extent of Europe}
+europe_extent <- extent(c(-25, 40, 34, 71))
+
+europe_prediction <- crop(prediction, europe_extent)
+
+#europe_prediction_fut <- crop(prediction_fut, europe_extent)
+```
+
+
+
+```{r Plot}
+plot(europe_prediction, 
+     main="Pseudopolydora Distribution Prediction for Europe", 
+     xlab="Longitude", 
+     ylab="Latitude")
+points(occurrences)
+
+#plot(europe_prediction_fut, main="Pseudopolydora Distribution Prediction for Europe", xlab="Longitude", ylab="Latitude")
+```
+
+
+```{r To Save}
+library(maps)
+par(mar=c(5.1, 4.1, 4.1, 2.1), 
+    cex.lab=1.5, 
+    cex.axis=1.2, 
+    cex.main=1.6, lwd=2) 
+
+# Create the plot
+plot(europe_prediction, main="Pseudopolydora Distribution Prediction for Europe", 
+     xlab="Longitude", ylab="Latitude", 
+     col=terrain.colors(100), 
+     axes=TRUE)
+map("world", add=TRUE, xlim=c(-25, 40), ylim=c(34, 71))
+points(occurrences, col="red", pch=20, cex=1.5) 
+
+
+library(rasterVis)
+levelplot(europe_prediction, 
+          margin=FALSE, 
+          scales=list(draw=FALSE), 
+          colorkey=list(width=1, height=0.5))
+
+```
+
+
+##### Using Occurrence data from OBIS: *Xenostrobus securis*
+```{r Occurrence data from OBIS, include=FALSE}
+
+occ_obis <- read.csv("C:/Users/bakaz/OneDrive/Documents/4. AZTI Thesis/AZTI Benthos data/Pseudopolydora.GBIF/New/Xenostrobus obis.csv")
+str(occ_obis)
+dim(occ_obis)
+sum(is.na(occ_obis))
+colnames(occ_obis)
+
+```
+
+```{r Converting the dataset into spatial datase, include=FALSE}
+coordinates(occ_obis) <- ~ decimallongitude + decimallatitude
+class(occ_obis)
+str(occ_obis)
+proj4string(occ_obis) <- CRS("+proj=longlat +datum=WGS84")
+remove.duplicates(occ_obis)
+```
+
+
+```{r Predictors}
+env_layers <- pred
+plot(env_layers)
+env_fut <- future
+```
+
+
+```{r Maxent for X securis}
+args <- c("randomseed", "skipifexists", "redoifexists")
+
+
+# Running MaxEnt model
+model_obis <- maxent(env_layers, occ_obis, args=args)
+```
+
+```{r X securis prediction}
+pred_obis <- predict(model_obis, env_layers)
+plot(pred_obis)
+points(occ_obis)
+```
+
+
+```{r X securis model evaluation}
+plot(model_obis)
+response(model_obis)
+
+bg <- randomPoints(env_layers, 1000)
+plot(bg)
+eva <-evaluate(model_obis, p=occ_obis, a=bg, x=env_layers)
+tres <-threshold(eva, stat ="prevalence");tres
+
+plot(eva, "ROC")
+plot(pred_obis>0.7, ext=extent(-50, 40, 34, 71))
+plot(pred_obis>tres, ext=extent(-50, 40, 34, 71))
+points(occurrences, col="red", pch=20, cex=1)
+```
+
+```{r Future prediction of X securis}
+#pred_obis_ft <- predict(model_obis, env_fut)
+#plot(pred_obis_ft)
+```
+
+```{r Geographical extent of Europe for X. securis}
+europe_ext <- extent(c(-50, 40, 34, 71))
+EU_obis <- crop(pred_obis, europe_ext)
+
+plot(EU_obis, xlab="Longitude", ylab="Latitude")
+
+map("world", add=TRUE, xlim=c(-50, 40), ylim=c(34, 71))
+
+europe_occurrences <- occ_obis[occ_obis$decimallongitude >= -50 & occ_obis$decimallongitude <= 40 & occ_obis$decimallatitude >= 34 & occ_obis$decimallatitude <= 71, ]
+points(europe_occurrences, col="red", pch=20, cex=1)
+
+#par(mar=c(5.1, 4.1, 4.1, 2.1), 
+#    cex.lab=1.5, 
+#    cex.axis=1.2, 
+#    cex.main=1.6, 
+#    lwd=2)
+
+#plot(EU_obis, 
+#     xlab="Longitude", ylab="Latitude", 
+#     col=terrain.colors(100), 
+#     axes=TRUE)
+
+#map("world", add=TRUE, xlim=c(-50, 40), ylim=c(34, 71))
+
+#points(europe_occurrences, col="red", pch=20, cex=1)
+#levelplot(EU_obis, margin=FALSE, scales=list(draw=FALSE), colorkey=list(width=1, #height=0.5))
+```
+
+
+```{r Geographical extent of Spain}
+spain_ext <- extent(c(-15, 11, 35, 47))
+spain_obis <- crop(pred_obis, spain_ext)
+
+
+plot(spain_obis, xlab="Longitude", ylab="Latitude")
+
+map("world", add=TRUE, xlim=c(-15, 10), ylim=c(34, 47))
+spain_occurrences <- occ_obis[occ_obis$decimallongitude >= -15 & occ_obis$decimallongitude <= 10 & occ_obis$decimallatitude >= 34 & occ_obis$decimallatitude <= 47, ]
+points(spain_occurrences, col="red", pch=20, cex=1)
+
+
+par(mar=c(5.1, 4.1, 4.1, 2.1), cex.lab=1.5, cex.axis=1.2, cex.main=1.6, lwd=2)
+
+map("world", add=TRUE, xlim=c(-15, 10), ylim=c(34, 47))
+spain_occurrences <- occ_obis[occ_obis$decimallongitude >= -15 & occ_obis$decimallongitude <= 10 & occ_obis$decimallatitude >= 34 & occ_obis$decimallatitude <= 47, ]
+points(spain_occurrences, col="red", pch=20, cex=1)
+
+# Add a color scale for the raster
+levelplot(spain_obis, 
+          margin=FALSE, 
+          scales=list(draw=FALSE), 
+          colorkey=list(width=1, height=0.5))
+```
+
+
+#### *Rugulopteryx Okamura*
+This is an algae that has been observed to be invasive in the Southern part of Spain. It occurrence has also been found in the Nerbioi estuary. So, there is a chance that this species become the next invasive species in the region in addition to *Xenostrobus securis*.
+
+```{r occurence in GBIf}
+rugulopteryx <- gbif("Rugulopteryx", "okamurae", 
+                     ext = c(-15, 11, 35, 47), 
+                     geo = T,
+                     sp = F,
+                     download = T)
+#colnames(rugulopteryx)
+rugulopteryx <- rugulopteryx[,c("lon","lat","occurrenceStatus")]
+rugulopteryx <- rugulopteryx %>% 
+  mutate(status=ifelse(occurrenceStatus=="PRESENT",1,0)) %>% 
+  dplyr::select("lon","lat","status")
+str(rugulopteryx)
+```
+
+```{r Spatial autocorrelation}
+#install.packages("spdep")
+library(spdep)
+coords <- cbind(rugulopteryx$lon, rugulopteryx$lat)
+nb <- knn2nb(knearneigh(coords, k =4))
+listw <- nb2listw(nb, style="W")
+moran.test(rugulopteryx$status, listw, randomisation = F, na.action = na.exclude)
+
+# This is important in case there is influence of presence in one location to affect the occurrence in another and to avoid over fitting of the model. But I don't know why the p-value is NA
+```
+
+```{r To spatial point}
+coordinates(rugulopteryx) <- ~lon + lat
+rugulopteryx <-remove.duplicates(rugulopteryx)
+```
+
+```{r Predictors2}
+envt<-load_layers(layercodes = c('BO_sstmax', 
+                           'BO_sstmean', 
+                           'BO_sstmin',
+                           'BO_salinity',
+                           'BO_dissox',
+                           'BO_nitrate'), 
+            rasterstack = T,
+            equalarea = F,
+            datadir="bio_oracle_env_data")
+plot(envt)
+```
+
+##### Using BIOCLIM Model
+
+```{r Using Bioclim model}
+model <-bioclim(envt, rugulopteryx)
+summary(model)
+pred <-predict(model, envt)
+pred
+```
+```{r Graphically rep}
+plot(pred, 
+     ext = c(-15, 11, 35, 47), 
+     main="Present distribution of Rugulopteryx in Spain using bioclim model")
+points(rugulopteryx, col="green")
+```
+
+
+```{r Bioclim evaluation}
+
+response(model)
+
+abs <- randomPoints(envt, 1000)
+eva <-evaluate(rugulopteryx, abs, model, envt);eva
+plot(eva,"ROC")
+```
+
+##### Using MaxEnt model
+
+```{r Using Maxent model}
+
+model_maxent <-maxent(envt, rugulopteryx)
+pred.maxent <-predict(model_maxent, envt);pred.maxent
+
+plot(pred.maxent, 
+     ext = c(-15, 11, 35, 47), 
+     main="Present distribution of Rugulopteryx")
+points(rugulopteryx, col="red")
+```
+
+
+```{r Evaluation of the Maxent model}
+response(model_maxent)
+
+eva.maxent <-evaluate(rugulopteryx, 
+                      abs, 
+                      model_maxent, 
+                      envt);eva.maxent
+plot(eva.maxent,"ROC")
+
+## If the predicting probability is >70%
+plot(pred.maxent>0.7, 
+     ext = c(-15, 11, 35, 47), 
+     main="Present distribution of Rugulopteryx with predicted probability>0.7")
+points(rugulopteryx, col="red",pch="+", cex= 0.5)
+
+## But if we based the threshold on the sensitivy
+thre<- threshold(eva.maxent, stat='sensitivity')
+plot(pred.maxent>thre, 
+     ext = c(-15, 11, 35, 47), 
+     main="Present distribution of Rugulopteryx with sensitivity>.5")
+points(rugulopteryx, col="red",pch="+", cex= 0.5)
+```
+
+
+##### Using BIOMOD
+```{r Using BIOMOD2, message=FALSE, warning=FALSE}
+### Partitioning the data into train/calibration and test/validation/evaluation
+set.seed(123)
+pat<-sample(x=2, size=nrow(rugulopteryx), replace = T, prob = c(0.7,0.3))
+train<- rugulopteryx[pat==1,]
+test<- rugulopteryx[pat==2,]
+
+### data formatting
+biomod_format <-BIOMOD_FormatingData(resp.name = "rugulopteryx",
+                     resp.var = train,
+                     expl.var = envt,
+                     PA.nb.rep = 2,
+                     PA.nb.absences = 100,
+                     PA.strategy = "random",
+                     na.rm = T,
+                     filter.raster = T,
+                     dir.name="Data")
+biomod_format
+#summary(biomod_format)
+```
+
+
+```{r Biomod2_modelling, echo=TRUE, message=FALSE, warning=FALSE}
+myBiomodOptions <- bm_ModelingOptions(data.type = "binary",
+                                      models = c("GAM", "GBM", "GLM", "RF"),
+                                      strategy = "default",
+                                      bm.format=biomod_format)
+```
+
+```{r message=FALSE, warning=FALSE}
+biomodel <-BIOMOD_Modeling(biomod_format,
+                modeling.id = "AllModels",
+                models = c( "GBM", "GLM", "RF", "GAM"),
+                CV.strategy = 'random',
+                CV.nb.rep = 2,
+                CV.perc = 0.7,
+                bm.options=myBiomodOptions,
+                metric.eval = c("ROC", "TSS"),
+                var.import = 2,
+                seed.val = 123,
+                do.progress = F)
+```
+
+```{r Model performance, echo=FALSE, message=FALSE, warning=FALSE}
+evaluation_metrics<-get_evaluations(biomodel)
+#write.csv(evaluation_metrics, "evaluation_metrics.csv")
+ImpVar <-get_variables_importance(biomodel)
+#write.csv(ImpVar, "ImpVar.csv")
+
+p_0<-bm_PlotVarImpBoxplot(biomodel, 
+                     group.by = c('run','expl.var','algo'),
+                     do.plot = T)
+p_0$plot
+
+p<-bm_PlotEvalBoxplot(biomodel,dataset = "calibration", 
+                   group.by = c('run','algo'),
+                   do.plot = T)
+p$plot
+
+p1<-bm_PlotEvalMean(biomodel,dataset = "calibration", 
+                group.by = c('run','algo'),
+                do.plot = T)
+p1$plot
+
+p2<-bm_PlotEvalBoxplot(biomodel,dataset = "validation", 
+                   group.by = c('run','algo'),
+                   do.plot = T)
+p2$plot
+
+p3<-bm_PlotEvalMean(biomodel,dataset = "validation", 
+                group.by = c('run','algo'),
+                do.plot = T)
+p3$plot
+
+#bm_PlotResponseCurves(biomodel,
+#                      models.chosen = "all",
+#                      new.env = envt,
+#                      show.variables = c('BO_sstmin','BO_salinity'),
+#                      fixed.var = 'mean',
+#                      do.bivariate = T,
+#                      do.plot = T)
+```
+
+```{r Best model, include=FALSE}
+best.mod <- get_built_models(obj=biomodel, run= 'RUN2', algo = "RF")
+```
+
+
+```{r Biomod projection, message=FALSE, warning=FALSE}
+proj <-BIOMOD_Projection(biomodel,test,
+                  proj.name="rugulopteryx projection",
+                  new.env = envt,
+                  models.chosen = best.mod,
+                  metric.binary = c("ROC", "TSS"),
+                  metric.filter = c("ROC", "TSS"),
+                  compress = T)
+plot(proj)
+```
+
+```{r Ensemble model, echo=TRUE, message=FALSE, warning=FALSE}
+ensemble <-BIOMOD_EnsembleModeling(biomodel,
+                        models.chosen = "all",
+                        em.by = "algo",
+                        em.algo = c("EMmean","EMwmean","EMmedian"),
+                        metric.select = c("ROC", "TSS"),
+                        metric.select.thresh = c(0.5,0.5),
+                        metric.eval = c("ROC", "TSS"),
+                        var.import = 2,
+                        EMci.alpha = 0.05,
+                        EMwmean.decay = 90,
+                        seed.val = 123)
+```
+
+
+```{r Evaluating the ensemble model, echo=FALSE}
+
+ensemble_metrics <-get_evaluations(ensemble)
+#write.csv(ensemble_metrics, "ensemble_metrics.csv")
+ImpVar.ensemble <-get_variables_importance(ensemble)
+#write.csv(ImpVar.ensemble, "ImpVar.ensemble.csv")
+
+pe_1<-bm_PlotVarImpBoxplot(ensemble, 
+                     group.by = c('algo','expl.var','merged.by.PA'),
+                     do.plot = T)
+pe_1$plot
+
+pe_2<-bm_PlotEvalBoxplot(ensemble,dataset = "calibration", 
+                   group.by = c('algo','merged.by.PA'),
+                   do.plot = T)
+pe_2$plot
+
+#bm_PlotResponseCurves(ensemble,
+#                      models.chosen = "all",
+#                      new.env = envt,
+#                      show.variables = c('BO_sstmin','BO_salinity'),
+#                      fixed.var = 'mean',
+#                      do.bivariate = T,
+#                      do.plot = T)
+```
+
+```{r Using best ensemble, include=FALSE}
+ens.mod <-get_built_models(ensemble,  algo="EMmean", merged.by.PA="mergedData")
+```
+
+
+```{r Ensemble forecasting, message=FALSE, warning=FALSE}
+BIOMOD_EnsembleForecasting(ensemble,
+                           proj.name = "ensemble proj",
+                           new.env = envt,
+                           models.chosen = ens.mod,
+                           metric.binary = c("ROC", "TSS"),
+                           metric.filter = c("ROC", "TSS"),
+                           compress = T,
+                           na.rm = T)
+
+```
+
+
+
