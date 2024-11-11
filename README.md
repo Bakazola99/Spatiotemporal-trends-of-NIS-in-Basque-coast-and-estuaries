@@ -1,14 +1,35 @@
-💡Abstract
+🌊 **Spatial Distribution and Temporal Trends of Non-Indigenous Species in the Basque Coast and Estuaries**
 
-The introduction of invasive alien species represents one of the most important drivers of biodiversity loss and ecosystem functioning, with effects ranging from ecological to economic and human health. 
-This study presents an updated list of 373 marine macroinvertebrate species that can be considered alien, cryptogenic, and invasive in the Bay of Biscay from three recent publications and two public sources. 
-After carefully cleaning and correcting any incorrect naming conventions and checking the WoRMs database, 26,960 benthic species records of macroinvertebrates obtained from surveys carried out from 1995 to 2022 on the Basque coast were crossed against this list to identify non-indigenous species (NIS). 
-56 NIS were identified on the Basque coast and estuaries. Spearman correlation showed a significant increasing trend between the number of NIS and the years of the study. 
-The Nerbioi estuary emerges as a hotspot of NIS, with relatively high records of Pseudopolydora paucibranchiata (n=43, 26.4%), Monocorophium acherusicum (n=16, 9.8%), Grandidierella japonica (n=13, 8.0%), Ruditapes philippinarum (n=13, 8.0%), 
-Theora lubrica (n=11, 6.8%) and Xenostrobus securis (n=11, 6.8%) were found in the intermediate part of the estuary, where historical industrial activity was settled. Oxygen saturation was a limiting factor for fauna in the inner and intermediate parts. 
-The increase in NIS in the Nerbioi estuary was not correlated with the number of vessels, which suggests that factors other than maritime traffic contribute to the establishment and expansion of the NIS. 
-Our data showed that none of the NIS found on the Basque coast could be considered an invasive species of concern for the European Union, except for the mussel Xenostrobus securis, 
-which is of particular concern in Spain. Thus, developing a specific monitoring system focused on NIS is essential to monitor the establishment and spread of alien species and implement measures to prevent the establishment of newly introduced invasive alien species.
+Welcome to the repository for my Master’s Thesis on the Spatial Distribution and Temporal Trends of Non-Indigenous Species (NIS) in the Basque Coast and Estuaries. This research investigates the presence, patterns, and potential impacts of non-indigenous species in this unique and biodiverse marine environment, with the goal of informing effective conservation and management strategies.
 
+**📚 Overview**
+Non-indigenous species pose a major threat to marine ecosystems by disrupting native biodiversity and altering ecological balance. This project examines spatial and temporal trends of NIS in the Basque coast and estuarine regions, focusing on:
 
-Keywords: Invasive, Cryptogenic, Non-indigenous species, Soft-bottom macroinvertebrates, Spatial distribution, Southeastern Bay of Biscay 
+Patterns of distribution: Mapping species presence across coastal and estuarine zones to identify hotspots and emerging areas of concern.
+
+Temporal trends: Analyzing data over time to understand trends in species proliferation, seasonal variations, and long-term changes.
+
+Environmental impact: Assessing potential ecological impacts of NIS on local biodiversity and habitat structure.
+
+**📍Key Components**
+1. Data Collection and Processing
+Field Surveys and Historical Records: Data sources include direct surveys, species monitoring records, and historical data from environmental agencies.
+Data Cleaning and Transformation: Scripts for handling inconsistencies, filling in missing values, and preparing data for spatial analysis.
+2. Spatial Analysis
+Mapping NIS Distribution: Using GIS and spatial analysis tools to map current NIS distribution patterns and identify high-risk areas.
+Hotspot Analysis: Applying spatial statistics to detect clusters of NIS presence and areas of significant spread.
+Environmental Correlations: Investigating relationships between NIS distribution and environmental factors (e.g., water temperature, salinity).
+3. Temporal Analysis
+Trend Analysis: Examining long-term data to identify trends in NIS abundance and spread over time.
+Predictive Modeling: Using time series models to project future trends and assess potential risk factors.
+
+**📊 Tools and Methodologies**
+GIS and Mapping: Tools like QGIS for spatial visualization and analysis.
+R Scripts: Code for data processing, statistical analysis, and trend modeling.
+Species Distribution Models (SDMs): Applying SDMs to predict potential spread and identify favorable habitats for NIS under various environmental conditions.
+
+**🔍 Research Value**
+This project aims to contribute valuable insights into marine ecology, conservation efforts, and environmental management in the Basque coast region. 
+By understanding the spatial and temporal trends of NIS, we can better inform policy decisions, early detection measures, and control strategies to mitigate the impact of invasive species.
+
+**Join me in exploring the dynamic and impactful role of non-indigenous species along the Basque coast and estuaries. 🌍**
