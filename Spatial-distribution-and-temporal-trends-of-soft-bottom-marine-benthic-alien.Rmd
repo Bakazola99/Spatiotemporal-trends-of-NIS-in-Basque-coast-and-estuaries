@@ -429,6 +429,33 @@ ggsave("LM_plot.png", lm_plot, width = 6,height = 6,units = 'in', dpi = 500)
 
 ```
 
+## Using Alien package
+
+```{r alien package}
+library(alien)
+
+ggplot()+
+  aes(x = temporal$Year, y = temporal$`NIS species` )+
+  geom_line() + 
+  coord_cartesian(ylim = c(0,60))+
+  scale_x_continuous(expand = c(0,0), breaks = seq(1995, 2024, 2)) + 
+  scale_y_continuous(expand = c(0,0), breaks = seq(0, 60, 10)) + 
+  ylab("Cumulative discoveries") + 
+  theme(axis.title.x = element_blank())+
+  theme_classic()
+
+model <- snc(y = temporal$`NIS species`, control = list(maxit = 1e4))
+model
+
+plot_snc(model, cumulative = T) +
+  coord_cartesian(ylim = c(0,300))+
+  scale_y_continuous( expand= c(0,0), breaks = seq(0, 300, 50)) + 
+  scale_x_continuous( expand= c(0,0), breaks = seq(0, 25, 5)) +
+  ylab("Cumulative discoveries") + 
+  xlab("Years since first record in data")+
+  theme_classic()
+
+```
 
 From a total of *26,960* soft-bottom benthic species records compiled from the 28 years monitoring activities across coastal and estuarine waterbodies in the Basque country, 937 records were identified as NIS consisting of alien, cryptogenic and invasive species, representing *3.48%* of the total. For clarification, it is worth noting that records referred to the presence of a species in a specific station for a specific sampling. From this NIS records, *45.4% (n=425)* belonged to Annelida, *36.7% (n=344)* Arthropoda while *17.9% (n=168)* were Mollusca. Among the NIS with more than 49 records, the most important are: *Pseudopolydora paucibranchiata* (n=135, 14.41%), *Ampelisca cavicoxa* (n=112, 11.95%), *Desdemona ornata* (n=55, 5.87%), *Autonoe spiniventris* (n=55, 5.87%), *Ampelisca heterodactyla* (n=54, 5.76%) and *Goniadella gracillis* (n=49, 5.23%). 
 In total, 56 NIS were identified for the Basque coast and estuaries over the course of this study. The ratio of NIS with respect to native species ranged from 0.01 in 1996 to 0.06 in 2016 and 2021.
